@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<title>2018 성수기 시즌 즉시 확정 이벤트</title>
+	<link rel="stylesheet" href="http://static.coresco.co.kr/css/m/reset.css">
+	<link rel="stylesheet" href="http://static.onbiz.co.kr/fonts/NanumBarunGothic/nanumbarungothic.css?ver=20171201120520">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosanskr.css?ver=20171201120520">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css?ver=20171201120520">
+	<link rel="stylesheet" href="http://static.coresco.co.kr/css/m/common.css" />
+	<link rel="stylesheet" href="http://static.coresco.co.kr/css/m/landing.css" />
+<!--
+    <link rel="stylesheet" href="../../../src/css/m/common.css">
+    <link rel="stylesheet" href="../../../../src/css/m/landing.css">
+-->
+    
+	<script type="text/javascript" src="http://static.coresco.co.kr/js/m/jquery-1.10.2.min.js?ver=20171201120520"></script>
+	<script type="text/javascript" src="http://static.coresco.co.kr/js/m/swiper.min.js?ver=20171201120520"></script>
+	<script type="text/javascript" src="http://static.coresco.co.kr/js/m/common.js?ver=20171201120520"></script>
+	<script type="text/javascript" src="http://static.coresco.co.kr/js/m/mobile.js"></script>
+	<script type="text/javascript" src="http://static.coresco.co.kr/js/m/common.js"></script>
+	<!--<script type="text/javascript" src="../../static/js/m/common.js"></script>-->
+</head>
+
+<body>
+	<h1 class="hidden">2018 성수기 시즌 즉시 확정 이벤트 - 시설선택</h1>
+	<div class="evt-com evt-summer2018 step-2">
+		<section class="evt-sec">
+			<div class="evt-area1">
+                <div class="evt-box">
+                    <h1 class="tit"><img src="http://img.coresco.co.kr/m/landing/summer2018/tit_facil.png" alt="이용하실 시설을 선택해주세요"><span class="hidden">시설선택</span></h1>
+                    <ul class="list-prod">
+                    	<li>
+                    		<a href="#"><img src="http://img.coresco.co.kr/m/landing/summer2018/prod_oc2.png" alt="상품소개"></a>
+							<div class="hidden info">
+								<h2>오션투유 리조트 (강원 > 고성/속초)</h2>
+								<p>
+									천혜의 절경, 삼포해변을 바로 
+									눈앞에서 바라볼 수 있는 
+									아름다운 리조트
+								</p>
+							</div>
+                    	</li>
+						<li>
+                    		<a href="#"><img src="http://img.coresco.co.kr/m/landing/summer2018/prod_bs.png" alt="상품소개"></a>
+							<div class="hidden info">
+								<h2>bs콘도 (충남 > 아산/천안)</h2>
+								<p>
+									천연 유항 온천의 보양 휴양과
+									편안하고 부대시설,  가족 단위
+									의 여행에 안성맞춤인 콘도
+								</p>
+							</div>
+                    	</li>
+						<li>
+                    		<a href="#"><img src="http://img.coresco.co.kr/m/landing/summer2018/prod_yh.png" alt="상품소개"></a>
+							<div class="hidden info">
+								<h2>연호 리조트 (강원 > 속초)</h2>
+								<p>
+									설악과 동해 바다의 풍광을
+									동시에 즐길 수 있는 자연 그대로
+									의 별장같은 리조트 
+								</p>
+							</div>
+                    	</li>
+						<li>
+                    		<a href="#"><img src="http://img.coresco.co.kr/m/landing/summer2018/prod_chi.png" alt="상품소개"></a>
+							<div class="hidden info">
+								<h2>코레스코 치악 (강원 > 횡성)</h2>
+								<p>
+									치악산의 신비로운 능선을 따라
+									아름다운 풍경과 탁 트인 자연을
+									느낄 수 있는 콘도
+								</p>
+							</div>
+                    	</li>
+                    </ul>
+			    </div>
+			</div>
+		</section>
+	</div>
+	<script>
+		$(function() {
+			$(window).resize(function() {
+				docHt();
+			}).resize();
+			
+			$(".evt-summer2018 .list-prod a").click(function() {
+				$("#popSummer").show();
+				return false;
+			});
+		});
+		function docHt() {
+			var ht = $(document).height();
+			$(".evt-com").css("min-height", ht);
+		}
+	</script>
+	
+	
+	<!--예약하기 팝업, 예약하기 클릭 시 무료 숙박권 예약하기 폼 페이지로 이동 (참고이미지 첨부) -->
+	<div id="popSummer" class="popup-com type-02 popup-summer" style="display:none">
+		<div class="pop_Bg_bk"></div>
+		<div class="popup-wrap">
+			<div class="popup-top-box">
+				<h4 class="popup-tit">성수기 회원 예약 접수</h4>
+			</div>
+			<div class="popup-container">
+				<div class="popup-form">
+					<div class="form-box">
+						<span class="label-com"><span class="c-point">* </span><label for="memberName1">회원이름</label></span>
+						<input type="text" id="memberName1" class="input-com" placeholder="이름입력">
+					</div>
+					<div class="form-box">
+						<span class="label-com"><span class="c-point"> </span><label for="memberNum1">회원번호</label></span>
+						<input type="tel" id="memberNum1" class="input-com" placeholder="12345678">
+					</div>
+					<div class="form-box">
+						<span class="label-com"><span class="c-point"> </span><label for="memberCode">주민번호</label></span>
+						<div class="code-box">
+							<input type="tel" id="memberCode" class="input-com fir" placeholder="주민번호 앞자리">
+							<span class="line"></span>
+							<input type="tel" class="input-com last" placeholder="뒤 3자리">
+							<span class="code-pwd">****</span>
+						</div>
+					</div>
+					<div class="form-box">
+						<span class="label-com"><span class="c-point">* </span><label>연락처</label></span>
+						<div class="phone-box">
+							<div class="sel-area">
+								<select class="sel-com">
+									<option>010</option>
+									<option>011</option>
+								</select>
+						   </div>
+							<span class="line"></span>
+							<input type="tel" class="input-com" placeholder="'-'를 제외하고 입력">
+						</div>
+					</div>
+				</div>
+				<div class="btn-box">
+					<a href="javascript:;" class="a-btn"><span>예약하기</span></a>
+				</div>
+			</div>
+			<a href="javascript:;" class="a-i-x btn-pop-close" title="닫기"></a>
+		</div>
+	</div>
+</body>
+
+</html>

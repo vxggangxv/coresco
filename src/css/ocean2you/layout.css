@@ -1,0 +1,1064 @@
+@charset "utf-8";
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+
+input,select,option,textarea {font-family: 'Nanum Gothic', '나눔고딕', 'NanumGothicWeb', '맑은 고딕', 'Malgun Gothic', '돋움', Dotum, sans-serif; font-size:12px; color:#000}
+
+
+/* main */
+#wrapper_main{width:100%; margin:0 auto; clear:both;}
+#container{width:980px; margin:auto; position:relative;}
+
+/* 메인배너 */
+#slides_bn{width:100%; position:relative; height:812px; overflow:hidden; float:left; }
+/*#slides_bn .slide_img01{background:url(http://img.gobs.co.kr/main_slide_bn01.jpg) center 0 no-repeat; width:100%; height:812px;}
+#slides_bn .slide_img02{background:url(http://img.gobs.co.kr/main_slide_bn02.jpg) center 0 no-repeat; width:100%; height:812px; display:none}
+#slides_bn .slide_img03{background:url(http://img.gobs.co.kr/main_slide_bn03.jpg) center 0 no-repeat; width:100%; height:812px; display:none}*/
+
+/* 메인 좌우버튼*/
+#container .slide_btn{width:980px; margin:auto; position:absolute; top:240px;}
+#container .slide_btn .prev{float:left}
+#container .slide_btn .next{float:right}
+
+/* 메인 컨텐츠*/
+#container .contents{width:980px; margin:auto; position:absolute; top:450px;}
+#container .contents ul {margin:auto; width:980px; text-align:center}
+#container .contents ul li {float:left; display:block; height:165px}
+#container .contents ul li.main_ctimg01 a{display:block; width:196px; height:165px; background-image:url(http://img.gobs.co.kr/main_ctimg01.png); text-indent:-99999px}
+#container .contents ul li.main_ctimg01 a:hover{background-position:0 -165px}
+#container .contents ul li.main_ctimg02 a{display:block; width:196px; height:165px; background-image:url(http://img.gobs.co.kr/main_ctimg02.png); text-indent:-99999px}
+#container .contents ul li.main_ctimg02 a:hover{background-position:0 -165px}
+#container .contents ul li.main_ctimg03 a{display:block; width:196px; height:165px; background-image:url(http://img.gobs.co.kr/main_ctimg03.png); text-indent:-99999px}
+#container .contents ul li.main_ctimg03 a:hover{background-position:0 -165px}
+#container .contents ul li.main_ctimg04 a{display:block; width:196px; height:165px; background-image:url(http://img.gobs.co.kr/main_ctimg04.png); text-indent:-99999px}
+#container .contents ul li.main_ctimg04 a:hover{background-position:0 -165px}
+#container .contents ul li.main_ctimg05 a{display:block; width:196px; height:165px; background-image:url(http://img.gobs.co.kr/main_ctimg05.png); text-indent:-99999px}
+#container .contents ul li.main_ctimg05 a:hover{background-position:0 -165px}
+
+
+/* sub */
+#wrapper{width:100%; margin:0 auto; clear:both;}
+#container{width:980px; margin:auto; position:relative;}
+#container .subNavi{float:right; padding:10px 0 0 0}
+#container .subNavi ul li{float:left; font-size:11px; color:#888888;}
+#container .subNavi ul li span{ margin:0 10px;}
+#container .title{float:left; clear:both; margin-bottom:30px}
+#container .title h2{float:left; font-size:35px; font-weight:bold; color:#434343}
+#container .sub_wrap {width:980px; margin:0 auto; margin-bottom:0px; float:left}
+
+/* 업체정보 */
+.information_tx{text-align:center; width:980px; font-size:13px; color:#757575; margin-top:25px}
+.information_tx .ti{font-size:28px; font-weight:bold; color:#000000; margin-bottom:25px}
+.information_tx .tx{font-size:13px; color:#757575;}
+/* 길찾기 */
+.map{float:left; width:978px; padding-bottom:20px; border-bottom:1px solid #cfcfcf; background-color:#f6f6f6}
+.map ul{margin-top:20px; float:left}
+.map ul li{margin-bottom:10px; margin-left:15px; color:#585858; font-size:13px;}
+.map ul li .map_i{font-weight:bold; width:110px; float:left; font-size:14px; color:#000}
+.address{margin-top:40px; float:left}
+.address h3{text-align:left; font-size:17px; font-weight:bold;}
+.map_address, .map_way, .map_way2{width:980px; margin-top:20px}
+.map_address tr{border-bottom:1px solid #fff; height:65px}
+.map_address th{width:20%; border-right:1px solid #fff; background-color:#ececec; text-align:center; font-weight:bold}
+.map_address th.on{background-color:#fff;}
+.map_address td{width:100%; text-align:center;}
+.map_img tr{text-align:center;}
+.map_img tr td{border:1px solid #ececec; border-top:0px; text-align:center; padding-top:30px;}
+.way{margin-top:40px; float:left}
+.way h3{text-align:left; font-size:17px; font-weight:bold;}
+.map_way tr{border-bottom:1px solid #fff; height:40px}
+.map_way .name th:nth-of-type(1){width:15%;}
+.map_way .name th:nth-of-type(2){width:15%;}
+.map_way .name th:nth-of-type(3){width:40%;}
+.map_way .name th:nth-of-type(4){width:15%;}
+.map_way .name th:nth-of-type(5){width:15%;}
+.map_way .name th{border-right:1px solid #fff; background-color:#ececec; text-align:center; font-weight:bold}
+.map_way .name2 th{border-right:1px solid #fff; background-color:#ececec; text-align:center; font-weight:bold}
+.map_way .content th:nth-of-type(1){width:15%;}
+.map_way .content th:nth-of-type(2){width:15%;}
+.map_way .content th:nth-of-type(3){width:15%;}
+.map_way .content th:nth-of-type(4){width:15%;}
+.map_way .content th:nth-of-type(5){width:15%;}
+.map_way .content th{border:1px solid #ececec; border-top:0px; background-color:#fff; text-align:center;}
+.way2{margin-top:40px; float:left}
+.way2 h3{text-align:left; font-size:17px; font-weight:bold;}
+.map_way2 tr{border-bottom:1px solid #fff; height:40px}
+.map_way2 .name th{width:30%; border-right:1px solid #fff; background-color:#ececec; text-align:center; font-weight:bold}
+.map_way2 .content th{border:1px solid #ececec; border-top:0px; background-color:#fff; text-align:center;}
+
+/* 객실안내 */
+#room_gallery{width:346px; height:265px; float:left; overflow:hidden; margin:auto}
+#room_gallery .view{width:346px; position:relative; float:left}
+#room_gallery .view img{width:100%; height:263px;}
+#room_gallery .view .img_expansion{position: absolute; top: 50%; left: 50%; margin: -52px 0 0 -37px; z-index: 999;}
+#room_gallery .view .view_prev_btn{position:absolute; top:100px;}
+#room_gallery .view .view_prev_btn img{width:42px; height:74px;}
+#room_gallery .view .view_next_btn{position:absolute;  top:100px; right:0}
+#room_gallery .view .view_next_btn img{width:42px; height:74px;}
+#room_gallery .thum_list{width:980px; background-color:#000; height:90px}
+#room_gallery .thum_list ul {float:left; padding:20px 0; width:980px; background-color:#000;}
+#room_gallery .thum_list ul li{float:left}
+#room_gallery .thum_list ul li.thum_img img{float:left; width:139px; height:68px;  margin-left:20px}
+#room_gallery .thum_list ul li.thum_img_on img{float:left; width:137px; height:66px; border:2px solid #ffcb93;  margin-left:20px}
+#room_information{width:634px; height:265px; margin-top:0px; line-height: 1.5; float:left;}
+#room_information h3{float:left; font-size:20px; color:#3b3b3b; margin-bottom:20px}
+#room_information .room_information{width:634px; height:265px;}
+#room_information .room_information tr{border-bottom:1px solid #dbdbdb; border-right:1px solid #dbdbdb;}
+#room_information .room_information tr:first-child{border-top:1px solid #dbdbdb; }
+#room_information .room_information tr th{height:25px; background-color:#f6f6f6; font-weight:bold; text-align:center;}
+#room_information .room_information tr td{height:25px; color:#6e6e6e; text-align:center;}
+.reservation_btn{text-align:center; margin-top:50px;}
+#rate_information_wrap{float:left; width:980px; margin-top:70px}
+#rate_information_wrap h3{float:left; font-size:20px; color:#3b3b3b; margin-bottom:20px}
+#rate_information_wrap .rate_information{width:980px; border-top:2px solid #d0904b;}
+#rate_information_wrap .rate_information tr{border-bottom:1px solid #dbdbdb; height:48px}
+#rate_information_wrap .rate_information tr th{background-color:#f6f6f6; font-weight:bold; text-align:center}
+#rate_information_wrap .rate_information tr td{color:#6e6e6e; text-align:center}
+#rate_information_wrap .rate_information tr td.reservation_btn1 a{background:#d0904b; color:#fff; padding:8px 40px; font-weight:700; font-size:13px;}
+#rate_information_wrap .rate_information tr td.tm{text-align:left; padding-left:20px;}
+#rate_information_wrap .rate_information tr td.price{font-weight:600; color:#ff0000}
+
+
+/* 온라인예약 */
+.price_t{float:left; font-size:20px; color:#3b3b3b; font-weight:600; margin-top:15px}
+
+#price_wrap{margin:auto; padding-top:15px; padding-bottom:50px; width:954px}
+#price_wrap h3 {display:block; margin-top:40px; margin-bottom:10px; text-align:left; font-size:17px; font-weight:bold; color:#000000; letter-spacing:-1px}
+#price_wrap .red {color:#eb0209}
+
+#price_wrap .price_total {margin-top:40px; margin-bottom:20px; width:954px; color:#303030}
+#price_wrap .price_total .total {padding-right:20px; background-color:#f3f3f3; border-top:1px solid #bebec2; border-bottom:1px solid #bebec2; font-size:13px}
+#price_wrap .price_total th{background-color:#e3e3e3; border-top:1px solid #bebec2; border-bottom:1px solid #bebec2; font-weight:bold; text-align:center}
+#price_wrap .detail {width:780px; font-size:12px; letter-spacing:-0.5px}
+#price_wrap .detail td{border:1px solid #eaeaec}
+
+#price_wrap #reser_left {float:left; width:544px}
+#price_wrap #reser_left .big_tit {display:block; margin-bottom:10px; text-align:left; font-size:17px; font-weight:bold; color:#000000; letter-spacing:-1px}
+#price_wrap #reser_left .reser_info {width:544px; height:290px; color:#303030; font-size:12px; border-top:2px solid #4f525c}
+#price_wrap #reser_left .reser_info th{padding-left:20px; border-bottom:1px solid #dbdee6; background-color:#f9f9f9; font-weight:bold}
+#price_wrap #reser_left .reser_info td{padding-left:20px; border-bottom:1px solid #dbdee6}
+#price_wrap #reser_left .pay_info{float:left; width:544px; color:#55575f; border-bottom:1px solid #e5e5e8; background-color:#f7f7f7; font-size:12px}
+#price_wrap #reser_left .pay_info .txt {color:#0080b5}
+#price_wrap #reser_left .pay_info .iframe {width:514px; height:240px; border:1px solid #ffffff; background-color:#ffffff}
+
+.reser_info #reserve_name {width:130px; height:22px; border-top:1px solid #a3a4a6; border-left:1px solid #a3a4a6; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb}
+.reser_info #tel1 {width: 70px; height:22px; border-top:1px solid #a3a4a6; border-left:1px solid #a3a4a6; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb; -ms-ime-mode: disabled;}
+.reser_info #tel2, .reser_info #tel3 {width: 70px; height:22px; border-top:1px solid #a3a4a6; border-left:1px solid #a3a4a6; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb; -ms-ime-mode: disabled;}
+.reser_info #email1 {height:28px; border-top:1px solid #a3a4a6; border-left:1px solid #a3a4a6; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb}
+.reser_info #email2 {height:28px; border-top:1px solid #a3a4a6; border-left:1px solid #a3a4a6; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb}
+.reser_info #email_sel {padding:4px 3px 5px; height:30px; border-top:1px solid #a3a4a6; border-left:1px solid #a3a4a6; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb}
+.reser_info #memo {color: rgb(153, 153, 153); margin-top: 15px; margin-bottom: 15px; border-top:1px solid #a3a4a6; border-left:1px solid #a3a4a6; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb}
+.reser_info #zip1, .reser_info #zip2, .reser_info #addr1, .reser_info #addr2 {height:22px; border-top:1px solid #a3a4a6; border-left:1px solid #a3a4a6; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb;}
+.reser_info #send_name {width:130px; height:22px; border-top:1px solid #a3a4a6; border-left:1px solid #a3a4a6; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb}
+.reser_info #recv_name {width:130px; height:22px; border-top:1px solid #a3a4a6; border-left:1px solid #a3a4a6; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb}
+
+#price_wrap #reser_right{float:right; width:394px; margin-top:33px}
+#price_wrap #reser_right .reser_price {width:394px; font-size:12px; border:3px solid #fd581d; color:#444444}
+#price_wrap #reser_right .reser_price .total_txt {background-color:#feece6; font-weight:bold}
+#price_wrap #reser_right .reser_price .total {font-weight:bold; font-family:Tahoma; font-size:13px}
+#price_wrap #reser_right .reser_price .discount {font-size:11px; color:#444444}
+#price_wrap #reser_right .reser_price .dot {height:1px; background:url(http://img.tournspa.co.kr/dot_bg.jpg) repeat-x}
+#price_wrap #reser_right .reser_price .last {color:#eb0209}
+#price_wrap #reser_right .reser_price .last_ov {color:#eb0209; background-color:#eaeaea}
+#price_wrap #reser_right .reser_price .last_txt {font-weight:bold; font-size:15px; letter-spacing:-1px}
+#price_wrap #reser_right .reser_price .last_num {font-weight:bold; font-size:20px; font-family:Tahoma}
+#price_wrap #reser_right .pay_price{float:left; width:394px; background-color:#f9f9f9; border-right:1px solid #e5e5e8; border-bottom:1px solid #e5e5e8; color:#55575f; font-size:12px}
+#price_wrap #reser_right .pay_price .add_price{font-weight:bold; color:#ea0000; font-family:Tahoma; font-size:32px; background-color:#ffffff; border-top:1px solid #8d8d8d; border-bottom:1px solid #8d8d8d}
+#price_wrap #reser_right .pay_price .size_11_g{font-size:11px; color:#666666; line-height:1.8; letter-spacing:-1.3px; text-align:left}
+#price_wrap #reser_right .pay_price .txt {padding-left:15px; color:#000}
+
+/*날짜 우선 검색*/
+#daySearch {float:left; margin:0 0 20px 0; padding:10px 0 10px 20px; width: 100%; background:#686868; border-radius:5px}
+#daySearch ul {display:inline-block; margin:auto; color:#fff; font-size:14px; text-align:left; letter-spacing:-0.3px}
+#daySearch li {float:left; padding:0 12px; margin-left:10px;}
+#daySearch p {line-height:2}
+#daySearch p .s_13 {font-size:13px}
+#daySearch .input {border-radius:3px; padding:6px; border:none; color:#686868; font-size:13px; float: left;}
+#daySearch .input#sch_sdate + a {position: relative; top: 2px;}
+#daySearch .input_day {border-radius:3px; background:#fff; height: 29px;}
+#daySearch .room_num {margin-top:28px; font-weight:600}
+
+#rsv_sang #rsv_s_tab .rsv_s_tabHead {height:40px; font-weight:600; width:954px; background:#f2f2f2; border:2px solid #cccccc; color:#5e5e5e}
+#rsv_sang #rsv_s_tab .rsv_s_tabHead td {vertical-align: middle;}
+#rsv_sang #rsv_s_tab .rsv_s_tabHead td a {position: relative; vertical-align: middle; top: 2px;}
+/*#rsv_sang #rsv_s_tab .rsv_s_tabHead td a {position: relative; top: -1px;}*/
+#rsv_sang #rsv_s_tab .rsv_s_tabHead td a img {display: inline-block;}
+#rsv_sang #rsv_s_list_box2 #rsv_s_list .nearGoods a {line-height:3; font-size:16px; color:#0072ff; text-decoration:underline; letter-spacing:-0.3px}
+#daySearch .checkinTxt {font-size:15px; padding-top:30px; color:#fdf400; font-weight:600; margin-left: 25px;}
+
+/*웹사이트 개선 2차*/
+#rsv_wrapper {clear:both; padding-top:0px; margin:0; width:980px; font-family: '나눔고딕', NanumGothic, 'Nanum Gothic'; color:#717171}
+#rsv_wrapper .price {padding-left:10px;}
+#rsv_wrapper .pl15 {padding-left:15px}
+#rsv_wrapper .left {text-align:left}
+#rsv_wrapper .center {text-align:center}
+#rsv_wrapper .right {text-align:right}
+#rsv_wrapper .so_txt {color: #ff4445; font-weight: bold;}
+#rsv_wrapper .so_price {color: #ff4445; font-weight: bold;}
+
+#rsv_wrapper #title #discount_pop {position:absolute; top:100px; right:0; width:275px; text-align:left; line-height:2}
+#rsv_wrapper #title #discount_pop .tit {float:left; padding-top:10px; padding-left:10px; width:265px; height:25px; color:#fff; font-weight:600; background:url(http://img.gobs.co.kr/discount_bg.png) no-repeat}
+#rsv_wrapper #title #discount_pop .text {float:left; padding:10px; width:253px; color:#3a3a3a; font-size:12px; line-height:1.5; background:#fff; border-left:1px solid #3a3a3a; border-right:1px solid #3a3a3a; border-bottom:1px solid #3a3a3a}
+#rsv_wrapper #title #discount_pop .text span {color:#ec5700; font-weight:600}
+
+#rsv_wrapper #title {position:relative; text-align:left}
+#rsv_wrapper #title span.big {font-size:22px;font-weight:600;letter-spacing:-1.5px;color:#3a3a3a}
+#rsv_wrapper #title span.go {font-size:30px;font-weight:600;letter-spacing:-1.5px;color:#ff7a2d}
+
+#rsv_wrapper #rsv_sang {margin-top:15px; width:100%; font-size:15px}
+#rsv_sang #rsv_s_gubun {width:100%;}
+#rsv_sang #rsv_s_gubun th {background:#3a3a3a;height:38px;color:#ffffff;font-weight:bold;text-align:center}
+#rsv_sang #rsv_s_gubun td {height:50px;border-bottom:1px solid #dddddd}
+#rsv_sang #rsv_s_gubun tr.select {background:#e3e3e3; color:#3a3a3a; font-weight:bold;text-align:center}
+
+#rsv_sang #rsv_s_tab {margin-top:10px; width:980px; background:#5e5e5e;height:42px;color:#ffffff;font-weight:600;text-align:center}
+#rsv_sang #rsv_s_tab li {float:left;line-height:42px}
+#rsv_sang #rsv_s_tab li.li1 {width:640px}
+#rsv_sang #rsv_s_tab li.li2 {width:135px}
+#rsv_sang #rsv_s_tab li.li3 {width:179px}
+#rsv_sang #rsv_s_list {width:980px;}
+#rsv_sang #rsv_s_list_box {clear:left;width:950px;height:230px;overflow-y:scroll}
+#rsv_sang #rsv_s_list_box #rsv_s_list {width:950px;}
+#rsv_sang #rsv_s_list_box #rsv_s_list td.ss {height:50px;border-bottom:1px solid #dddddd}
+#rsv_sang #rsv_s_list_box #rsv_s_list tr.select {background:#e3e3e3; color:#3a3a3a; font-weight:600}
+
+#rsv_sang #rsv_s_list_box_solo {clear:left;width:100%}
+#rsv_sang #rsv_s_list_box_solo #rsv_s_list {width:100%;}
+#rsv_sang #rsv_s_list_box_solo #rsv_s_list td {height:50px;border-bottom:1px solid #dddddd}
+#rsv_sang #rsv_s_list_box_solo #rsv_s_list tr.select {background:#e3e3e3; color:#3a3a3a; font-weight:bold}
+
+#cal_wrap2 .btn_close {clear:both; float:right; margin-right:15px}
+#cal_wrap2 {float:left; margin:0px auto; width:954px; background:url(http://img.gobs.co.kr/box_bg.gif) 0 0 repeat-y; border-bottom:1px solid #afb6bc; border-right:2px solid #afb6bc; border-top:2px solid #afb6bc; border-left:2px solid #afb6bc; text-align:left; color:#3a3a3a}
+#cal_wrap2 .tit{font-weight:600; color:#000000; background-color:#eaebed; border-bottom:1px solid #afb6bc; border-top:1px solid #afb6bc;}
+#cal_wrap2 .bold{font-weight:600; color:#000000; letter-spacing:-1.2px}
+#cal_wrap2 .notice{font-size:11px; line-height:-2}
+#cal_wrap2 .red{font-weight:600; color:#ff1100;}
+
+
+
+#cal_wrap2 .cal_section {float:left; width:384px; height:100%; min-height:520px; text-align:left; font-size:11px; font-family:Dotum,'돋움'; color:#747c84}
+#cal_wrap2 .cal_section .step_01{padding-top:15px; padding-left:10px; width:374px; height:35px; font-family:'나눔고딕', NanumGothic, 'Nanum Gothic'; background-color:#e1b178; font-weight:600; color:#ffffff; font-size:17px; letter-spacing:-1px}
+#cal_wrap2 .cal_section .date {margin:auto; padding-top:15px; width:373px; height:35px; position:relative; margin-bottom:10px; text-align:center}
+#cal_wrap2 .cal_section .date .month {font-family:Tahoma; font-weight:bold; font-size:22px; color:#4f4f4f; text-align:center}
+#cal_wrap2 .cal_section .date .left{position:absolute; left:0px; font-size:22px}
+#cal_wrap2 .cal_section .date .right{position:absolute; right:0px; font-size:22px}
+#cal_wrap2 .cal_section .calendar {margin:auto; width:373px; font-family:Arial; font-size:11px; color:#828282}
+#cal_wrap2 .cal_section .calendar th{height:35px; border:1px solid #eff0f2; font-size:12px; color:#747c84; background-color:#f8f8f9; text-align:center; font-weight:bold}
+#cal_wrap2 .cal_section .calendar td{padding:3px; border:1px solid #eff0f2; height:35px; background-color:#ffffff; letter-spacing:-1px; text-align:right}
+#cal_wrap2 .cal_section .calendar .c-date{text-align:right; font-weight:bold}
+#cal_wrap2 .cal_section .calendar .pric_end{text-decoration:line-through; color:#7c7c7c}
+#cal_wrap2 .cal_section .calendar .pric_ok{color:#bd0004}
+#cal_wrap2 .cal_section .calendar .pric_normal{color:#008097}
+#cal_wrap2 .cal_section .calendar .pric_info{color:#7c7c7c}
+#cal_wrap2 .cal_section .calendar .pric_ok_ov{background-color:#fcd9db}
+#cal_wrap2 .cal_section .calendar .pric_normal_ov{background-color:#e0fafd}
+#cal_wrap2 .cal_section .calendar .pric_ok_ov2{background-color:#fff600; color:#006b77}
+#cal_wrap2 .cal_section .calendar .pric_normal_ov2{background-color:#fff600; color:#006b77}
+#cal_wrap2 .cal_section .c-note{margin:auto; width:373px; line-height:1.2; letter-spacing:-1px}
+
+#cal_wrap2 .cal_section_solo {float:left; width:660px; min-height:520px; text-align:left; font-size:11px; font-family:Dotum,'돋움'; color:#747c84}
+#cal_wrap2 .cal_section_solo .step_01{padding-top:15px; padding-left:10px; width:660px; height:35px; font-family: '나눔고딕', NanumGothic, 'Nanum Gothic'; background-color:#ff7a2d; font-weight:600; color:#ffffff; font-size:17px; letter-spacing:-1px}
+#cal_wrap2 .cal_section_solo .date {margin:auto; padding-top:15px; width:373px; height:35px; position:relative; margin-bottom:10px; text-align:center}
+#cal_wrap2 .cal_section_solo .date .month {font-family:Tahoma; font-weight:bold; font-size:22px; color:#4f4f4f; text-align:center}
+#cal_wrap2 .cal_section_solo .date .left{position:absolute; left:0px; font-size:22px}
+#cal_wrap2 .cal_section_solo .date .right{position:absolute; right:0px; font-size:22px}
+#cal_wrap2 .cal_section_solo .calendar {margin:auto; width:660px; font-family:Arial; font-size:11px; color:#828282}
+#cal_wrap2 .cal_section_solo .calendar th{height:35px; border:1px solid #eff0f2; font-size:12px; color:#747c84; background-color:#f8f8f9; text-align:center; font-weight:bold}
+#cal_wrap2 .cal_section_solo .calendar td{padding:3px; border:1px solid #eff0f2; height:35px; background-color:#ffffff; letter-spacing:-1px; text-align:right}
+#cal_wrap2 .cal_section_solo .calendar .c-date{text-align:right; font-weight:bold}
+#cal_wrap2 .cal_section_solo .calendar .pric_end{text-decoration:line-through; color:#7c7c7c}
+#cal_wrap2 .cal_section_solo .calendar .pric_ok{color:#bd0004}
+#cal_wrap2 .cal_section_solo .calendar .pric_normal{color:#008097}
+#cal_wrap2 .cal_section_solo .calendar .pric_info{color:#7c7c7c}
+#cal_wrap2 .cal_section_solo .calendar .pric_ok_ov{background-color:#fcd9db}
+#cal_wrap2 .cal_section_solo .calendar .pric_normal_ov{background-color:#e0fafd}
+#cal_wrap2 .cal_section_solo .calendar .pric_ok_ov2{background-color:#fff600; color:#006b77}
+#cal_wrap2 .cal_section_solo .calendar .pric_normal_ov2{background-color:#fff600; color:#006b77}
+#cal_wrap2 .cal_section_solo .c-note{margin:auto; width:640px; line-height:1.2; letter-spacing:-1px}
+#cal_wrap2 .cal_section_solo .c-note img{margin-right:2px}
+
+#cal_wrap2 .cal_day2 {float:left; width:280px; text-align:left; font-size:12px; font-family:Dotum,'돋움'; color:#747c84}
+#cal_wrap2 .cal_day2 .step_02{padding-top:15px; padding-left:10px; width:270px; height:35px; font-family: '나눔고딕', NanumGothic, 'Nanum Gothic'; background-color:#ce9959; font-weight:600; color:#ffffff; font-size:17px; letter-spacing:-1px}
+#cal_wrap2 .cal_day2 .room_info2{width:280px;padding:0}
+#cal_wrap2 .cal_day2 .room_info2 table{width:100%;}
+#cal_wrap2 .cal_day2 .room_info2 table th{padding-left:10px}
+#cal_wrap2 .cal_day2 .room_info2 .pkg_select{margin-top:10px;}
+#cal_wrap2 .cal_day2 .room_info2 .pkg_select td{border-bottom:1px solid #c7ccd0}
+#cal_wrap2 .cal_day2 .room_info2 .pkg_select td.pkg_option{background-color:#fff1e8}
+#cal_wrap2 .cal_day2 .room_info2 .pkg_select td.pkg_option table{width:280px; margin-top:8px; margin-bottom:8px}
+#cal_wrap2 .cal_day2 .room_info2 .pkg_select td.pkg_option table th{color:#000000; font-weight:bold}
+#cal_wrap2 .cal_day2 .room_info2 .pkg_select td.pkg_option table td{border-bottom:0; padding:0}
+#cal_wrap2 .cal_day2 .room_info2 .pkg_select td.pkg_option table td p{letter-spacing:-1.5px; margin-top:7px}
+#cal_wrap2 .cal_day2 .room_info2 .pkg_select td.pkg_info{padding:10px; letter-spacing:-0.2px; border-bottom:0}
+#cal_wrap2 .cal_day2 .room_info2 .pkg_select td.pkg_info span{color:#f45a49}
+#cal_wrap2 .cal_day2 .room_info2 .pkg_select td.pkg_title a{display:block; height:35px; line-height:3}
+.checkbox label{
+display:inline-block; position:relative; left:10px; font-size:0; height:15px; padding-left:23px; line-height:1.6; color:#313131;
+background:url(http://img.gobs.co.kr/checkbox_img.gif) no-repeat 0 0;background-size:15px 30px; -webkit-background-size:15px 30px; cursor:pointer;
+}
+.checkbox .chk{position:absolute; z-index:-1; opacity:0}
+.checkbox .chk:checked+label{background-position:0 -15px}
+*:first-child+html .checkbox label{background:none; padding-left:12px}
+*:first-child+html .checkbox .chk{position:absolute; z-index:1; opacity:0}
+
+#cal_wrap2 .cal_result {float:left; width:279px; text-align:left; font-size:12px; font-family:Dotum,'돋움'; color:#747c84}
+#cal_wrap2 .cal_result .step_03{padding-top:15px; padding-left:10px; width:273px; height:35px; font-family: '나눔고딕', NanumGothic, 'Nanum Gothic'; background-color:#b27a52; border-right:1px solid #b27a52; font-weight:600; color:#ffffff; font-size:17px; letter-spacing:-1px}
+#cal_wrap2 .cal_result .ccheck_table {margin:auto; margin-top:15px; width:245px; padding:10px}
+#cal_wrap2 .cal_result .ccheck_table td {padding-left:5px; letter-spacing:-0.3px}
+#cal_wrap2 .cal_result .price{margin:auto; margin-top:10px; padding-top:5px; width:246px; height:50px; letter-spacing:-0.5px; text-align:center; background-color:#ffffff; border:2px solid #d1d5db; font-weight:bold; font-size:11px;}
+#cal_wrap2 .cal_result .price2{margin:auto; margin-top:10px; padding-top:5px; width:246px; height:50px; letter-spacing:-0.5px; text-align:center; background-color:#ffffff; border:2px solid #d1d5db; font-weight:bold; font-size:11px;}
+#cal_wrap2 .cal_result .price3{margin:auto; margin-top:5px; width:246px; letter-spacing:-1px; text-align:center; background-color:#ffffff; font-weight:bold; font-size:12px; color:#000}
+#cal_wrap2 .cal_result .btn{margin:auto; margin-top:30px; margin-bottom:30px; width:260px;float:none}
+#cal_wrap2 .cal_result .btn_app_bn{margin:auto; margin-top:5px; margin-bottom:20px; width:260px; float:none}
+#cal_wrap2 .pkg_sale_text{text-align:center; letter-spacing:-0.5px}
+#cal_wrap2 .pkg_sale_text span{font-weight:bold; color:#ff1200}
+#cal_wrap2 .price_text{text-align:center; margin-top:5px; letter-spacing:-0.5px;  font-size:11px; font-family:Dotum,'돋움'; color: #888}
+
+
+
+/*2015.02. 상세리뉴얼 관련*/
+#rsv_sang #rsv_s_list_box2 {clear:left;width:980px}
+#rsv_sang #rsv_s_list_box2 #rsv_s_list {width:980px;}
+#rsv_sang #rsv_s_list_box2 #rsv_s_list td.ss{height:60px;border-bottom:1px solid #dddddd; position: relative; vertical-align: middle; line-height: 1.3em;}
+#rsv_sang #rsv_s_list_box2 #rsv_s_list td.ss2{height:60px;border-bottom:1px solid #dddddd; position: relative;}
+#rsv_sang #rsv_s_list_box2 #rsv_s_list tr.select {padding:none; background:#e3e3e3; color:#3a3a3a; font-weight:600}
+
+#contents .contents_tit2 {float:left; margin-bottom:15px; padding-bottom:10px; padding-top:10px; padding-left:20px; width:982px; color:#000; font-weight:600; text-align:left; font-size:17px; border-bottom:1px solid #b2b2b2; border-top:1px solid #b2b2b2}
+#main5 {position:relative; width:961px; margin:auto; margin-top:22px}
+#main5 .info_local {position:absolute; top:0px; left:0px; width:486px; height:40px; padding-left:17px; padding-top:10px; background:url(http://img.gobs.co.kr/info_bg.png) no-repeat; text-align:left}
+#main5 .info_local .point_txt{color:#fff; font-weight:bold; font-size:18px; letter-spacing:-0.5px; text-align:left}
+
+#main5 .left {float:left; width:385px}
+#main5 .left .photo {width:385px;}
+#main5 .left .photo .img_big img {width:385px; height:257px}
+#main5 .left .photo .img_s {position:relative; text-align:left}
+#main5 .left .photo .img_s img {width:74px; height:55px}
+#main5 .left .photo .img_s .info_gallery {position:absolute; top:1px; left:1px; padding-top:17px; width:74px; height:39px; background:#000000; opacity:0.8; filter:alpha(opacity=88); text-align:center}
+#main5 .left .photo .img_s .info_gallery .point_txt_gallery{color:#fff; font-weight:bold; letter-spacing:-0.5px; text-align:center}
+
+#main5 .right {float:left; margin-left:30px; width:546px; text-align:left;}
+#main5 .goods_info .goods_tit{width:546px; font-weight:600; font-size:17px; color:#000}
+#main5 .goods_info .tit {height:43px; border-bottom:1px solid #c8c8c8}
+#main5 .goods_info .tit2 {width:75px; height:32px; border-bottom:1px solid #c8c8c8}
+#main5 .goods_info .contents {width:301px; height:32px; border-bottom:1px solid #c8c8c8; color:#000}
+#main5 .goods_info .contents a:hover{color:#ff7a2d}
+#main5 .goods_info .contents2 {width:301px; padding:10px 0; border-bottom:1px solid #c8c8c8; color:#000; font-weight:600}
+#main5 .goods_info .contents2 a:hover{color:#ff7a2d}
+#main5 .goods_info .contents2 li {float:left; margin-right:10px; width:90px; text-align:center; font-size:11px; line-height:1.2}
+#main5 .goods_info .contents2 li img {width:74px; height:74px; margin-bottom:5px}
+#main5 .goods_info .contents2 li.more a{color:#ff7a2d}
+
+#main5 .price_txt {background:#ff7a2d; text-align:center; color:#fff; font-size:15px; letter-spacing:-1px; line-height:1.5}
+#main5 .price_txt .price {font-size:20px; font-weight:600}
+
+#contents_mn2 {float:left; clear:both; width:100%; height:45px; margin:auto; text-align:center; margin-top:44px; margin-bottom:44px; background-color:#f4f3f3; border-top:3px solid #686868; border-bottom:1px solid #c4c4c4}
+#contents_mn2 .box {width:143px; height:45px; line-height:4; font-weight:600; font-size:14px; color:#000; border-right:1px solid #a4a3a3}
+#contents_mn2 .box_ov {width:143px; height:45px; line-height:4; font-weight:600; font-size:14px; color:#fff; background-color:#686868; border-right:1px solid #a4a3a3}
+#contents_mn2 .box_last {width:144px; height:45px; line-height:4; font-weight:600; font-size:14px; color:#000}
+#contents_mn2 .box_last_ov {width:144px; height:45px; line-height:4; font-weight:600; font-size:14px; color:#fff; background-color:#686868}
+
+#contents .goods_gallery {clear:both; margin:auto; width:910px; text-align:left}
+#contents .goods_gallery h3 {font-size:15px; font-weight:600; color:#ff7a2d}
+#contents .goods_gallery ul {float:left; margin-bottom:30px; }
+#contents .goods_gallery li {position:relative; float:left; margin-right:5px; margin-top:5px}
+#contents .goods_gallery li img {width:222px; height:160px}
+#contents .goods_gallery .info {position:absolute; top:133px; left:0px; padding-top:4px; padding-left:10px; width:212px; height:23px; text-align:left; background:#000000; opacity:0.8; filter:alpha(opacity=88)}
+#contents .goods_gallery .info .txt{color:#fff; font-weight:bold; letter-spacing:-0.5px; text-align:left}
+
+.info_box {clear:both; padding:20px 30px; border:10px solid #f4f3f3; text-align:left; font-family: "Nanum Gothic";}
+.info_box .info_tit {color:#000; font-weight:bolder; font-size:17px}
+.info_box .info_none {display:block; min-height:70px;margin-bottom:50px}
+.info_box .info_txt {display:block; margin-bottom:50px; margin-top:10px}
+.info_box .info_txt .point {font-weight:600; color:#ff0000}
+/*.info_box table {border-collapse: collapse;}*/
+.info_box table th, .info_box table td {border: 2px solid grey; vertical-align: middle; font-size: 15px;}
+.info_box p{ line-height: 1.2em;}
+
+#tour_taste {clear:both; margin:auto; width:910px}
+#tour_taste th {border-top:1px solid #c3c3c3; background:#f6f6f6; color:#000; font-weight:600; text-align:center}
+#tour_taste td {border-bottom:1px solid #e8e7e7}
+#tour_taste .photo img{width:158px; height:88px}
+#tour_taste_select{clear:both; float:right; margin-right:46px; margin-bottom:10px; padding: 4px 3px 5px; border: 1px solid rgb(192, 197, 201); width: 130px; height: 28px; color: rgb(116, 124, 132); font-size: 13px;}
+
+#cal_wrap .btn_close {clear:both; float:right; margin-right:15px}
+#room_detail_info {margin:0px auto; width:952px;border-left:2px solid #afb6bc;border-right:2px solid #afb6bc;border-bottom:2px solid #afb6bc;}
+#room_detail_info th {padding-left:10px; background:#f6f6f6; border-bottom:1px solid #dddee0; text-align:left; font-size:13px; line-height:2; font-weight:600; color:#3d3d3d}
+#room_detail_info td {padding:10px 0 10px 10px; background:#f6f6f6; text-align:left; font-size:12px; line-height:1.5}
+#room_detail_info td img {width:158px; height:88px}
+
+#search_detail{position:absolute; top:46px; left:274px; z-index:1000; clear:both; margin:auto 0px; padding:10px 20px 10px 10px; width:408px; height:232px; background:url(http://img.gobs.co.kr/bg_search.png) no-repeat; font-family: 'Nanum Gothic', '나눔고딕', 'NanumGothicWeb', '맑은 고딕', 'Malgun Gothic', '돋움', Dotum, sans-serif}
+#search_detail table{width:100%; font-size:12px; font-weight:bold; color:#48494d}
+#search_detail .gubun{padding-left:20px; background:#fff5ef}
+#search_detail .p_20{padding-left:20px}
+
+#search_detail .check{margin:0 5px 0 10px}
+#search_detail .select {padding: 3px; border: 1px solid rgb(192, 197, 201); height: 26px; font-size: 12px; line-height:3; color:#48494d}
+#search_detail .input {padding: 2px; border: 1px solid rgb(192, 197, 201); height: 20px; font-size: 12px; color:#48494d}
+
+#search_detail_more{width:1002px; height:302px; border-left:1px solid #dadada; border-bottom:1px solid #dadada; border-right:1px solid #dadada; background:#fff}
+#search_detail_more .left{float:left; width:234px; height:302px; text-align:left}
+#search_detail_more .center{float:left; width:727px}
+#search_detail_more .center .search_t{margin-top:16px; margin-bottom:16px; width:727px; font-size:12px}
+#search_detail_more .center .search_t table td{text-align:left}
+
+#search_detail_more .package a{float:left; display:block; margin-right:6px; width:236px; height:92px; background:url(http://img.go.co.kr/btn_package.jpg) no-repeat}
+#search_detail_more .package a:hover {background-position:0 -92px;}
+#search_detail_more .theme a{float:left;display:block; margin-right:6px; width:236px; height:92px; background:url(http://img.go.co.kr/btn_theme.jpg) no-repeat}
+#search_detail_more .theme a:hover {background-position:0 -92px;}
+#search_detail_more .facility a{float:left; display:block; width:236px; height:92px; background:url(http://img.go.co.kr/btn_facility.jpg) no-repeat}
+#search_detail_more .facility a:hover {background-position:0 -92px;}
+#search_detail_more .right{float:right; width:42px}
+
+#search_detail_more .check{margin:0 5px 0 10px}
+#search_detail_more .select {padding: 3px; border: 1px solid rgb(192, 197, 201); height: 26px; font-size: 12px; line-height:3; color:#48494d}
+#search_detail_more .input {padding: 2px; border: 1px solid rgb(192, 197, 201); height: 20px; font-size: 12px; color:#48494d}
+
+#search_add_p {position:relative; padding-left:20px; width:982px; height:130px; border-left:1px solid #dadada; border-bottom:1px solid #dadada; border-right:1px solid #dadada; background:#fff; font-size:12px}
+#search_add_p ul{width:982px; margin-top:20px}
+#search_add_p li{float:left; width:140px; height:30px}
+#search_add_p .check{margin:0 0 0 10px}
+#search_add_p .close {clear:both; position:absolute; top:100px; right:0}
+#search_add_p .simg {clear:both; padding-top:10px}
+
+#search_add_t {position:relative; padding-left:20px; padding-top:10px; width:982px; height:140px; border-left:1px solid #dadada; border-bottom:1px solid #dadada; border-right:1px solid #dadada; background:#fff; font-size:12px}
+#search_add_t ul{width:982px; margin-top:20px}
+#search_add_t li{float:left; width:150px; height:30px}
+#search_add_t .check{margin:0 0 0 10px}
+#search_add_t .close {clear:both; position:absolute; top:120px; right:0}
+#search_add_t .simg {clear:both; padding-top:10px}
+
+#search_add_f {position:relative; padding-left:20px; padding-top:10px; width:982px; height:330px; border-left:1px solid #dadada; border-bottom:1px solid #dadada; border-right:1px solid #dadada; background:#fff; font-size:12px}
+#search_add_f ul{width:982px; margin-top:20px}
+#search_add_f li{float:left; width:130px; height:30px}
+#search_add_f .check{margin:0 0 0 10px}
+#search_add_f .close {clear:both; position:absolute; top:310px; right:0}
+#search_add_f .simg {clear:both; padding-top:10px}
+
+#cart_end_wrap{width:600px; margin:auto; color:#55575f; font-size:13px}
+#cart_end_wrap h3 {display:block; margin-top:20px; text-align:left; font-size:17px; font-weight:bold; color:#b28836; letter-spacing:-1px}
+#cart_end_wrap .notice{margin-bottom:50px; width:600px; padding-top:20px; line-height:2; text-align:left; letter-spacing:-0.5px; font-size:11px}
+
+#cart_end_wrap #cart_end {border-top:2px solid #4f525c}
+#cart_end_wrap #cart_end th{padding:10px; background-color:#fdfdfd; border:1px solid #d8d8df; text-align:left; font-weight:bold}
+#cart_end_wrap #cart_end td{padding:10px; border:1px solid #d8d8df; color:#55575f; text-align:left}
+#cart_end_wrap #cart_end .number{padding:none; background-color:#fdfdfd; border-right:1px solid #d8d8df; line-height:1.2; color:#000000; font-weight:bold; font-size:15px; text-align:center}
+#cart_end_wrap #cart_end .bg{background-color:#e9e9e9; border-bottom:1px solid #d8d8df}
+#cart_end_wrap #cart_end .price{text-align:right; color:#ea0000; font-weight:bold; font-family:Tahoma; font-size:22px; background-color:#e9e9e9; border-bottom:1px solid #d8d8df}
+#cart_end_wrap #cart_end .spa_bg{background-color:#f2fafd}
+#cart_end_wrap #cart_end .price_td{border-top:2px solid #4f525c}
+#cart_end_wrap #cart_end .price_num{font-weight:bold; font-family:Tahoma; font-size:14px}
+#cart_end_wrap #cart_end .price_num2{color:#ea0000; font-weight:bold; font-family:Tahoma; font-size:14px}
+#cart_end_wrap #cart_end .price_notice{color:#ea0000; font-size:11px}
+#cart_end_wrap #cart_end .go {color:#ea0000; font-weight:600}
+
+/* 부대시설 */
+.facilities_tx{float:left; width:980px} 
+.facilities_tx dl{overflow:hidden; padding: 0; width: 480px; height:400px; border-top: solid 1px #e3e3e3; float: left; margin-bottom: 30px; line-height: 2.8;}
+.facilities_tx dl:nth-of-type(1){border-top:0px;}
+.facilities_tx dl:nth-of-type(2){border-top:0px;}
+.facilities_tx dl:nth-of-type(2n){margin-left:20px;}
+.facilities_tx dl dt{text-align:center;}
+.facilities_tx dl dt img{width: 100%; height:250ppx}
+.facilities_tx dl dd{float:left; margin-bottom:25px}
+.facilities_tx dl dd h3{font-size:18px;color:#333;padding:10px 0 0 0;}
+.facilities_tx dl dd ul{}
+.facilities_tx dl dd ul li{color:#777; font-size:13px; padding-right:25px; float:left }
+.facilities_tx dl dd div{color:#777;line-height:150%; padding:5px 0;}
+
+/* 추천 여행 */
+.attractions_trip{float:left; width:980px}
+.attractions_trip img {vertical-align: middle;}
+.attractions_trip dl{padding:30px 0; width:980px; border-top:solid 1px #e3e3e3; float:left; }
+.attractions_trip dl:nth-of-type(1){border-top:0px;}
+.attractions_trip dl dt{float:left; width:358px; height:205px; overflow:hidden;}
+.attractions_trip dl dt img{width:100%;}
+.attractions_trip dl dd{float:left; margin-left:20px}
+.attractions_trip dl dd h3{font-size:18px;color:#333; padding:15px 0 5px 0;}
+.attractions_trip dl dd ul{}
+.attractions_trip dl dd ul li{color:#777; font-size:13px; padding-bottom:10px; }
+.attractions_trip dl dd div{color:#777;line-height:150%; padding:10px 0;}
+
+/*자주묻는질문-검색*/
+.customer_faq {float:left}
+.customer_faq .search_box {float:left; padding:20px 0; text-align:center; width:968px; height:70px; margin-bottom:30px; border:6px solid #e0e0e0; text-align:center}
+.customer_faq .search_box .tit {clear:both; margin-right:10px; line-height:2.5; font-size:14px; font-weight:600; color:#ff610a}
+.customer_faq .search_box .search_input {text-align:center; width:310px; height:33px; font-size:14px; padding-left:9px; border:1px solid #c0c0c0; color:#828284}
+.customer_faq .search_box .search_btn a {text-align:center; padding:10px 20px; line-height:2.5; font-weight:600; color:#fff; background:#cb9356}
+.customer_faq .search_box .keyword {clear:both; padding:20px 0}
+.customer_faq .search_box .keyword {font-size:12px; color:#9a9a9a}
+.customer_faq .search_box .keyword a{font-size:12px; color:#9a9a9a}
+.customer_faq .search_box .keyword span {font-weight:600; color:#cb9356}
+
+.customer_faq .search_result {float:left; line-height:1.7}
+.customer_faq .search_result .tit {font-weight:600; font-size:17px}
+.customer_faq .search_result span {font-weight:600; color:#ff610a}
+
+/*자주묻는질문-카테고리 탭*/
+.customer_faq .category2 {margin:auto; width:440px}
+.customer_faq .category2 li a {float:left; display:block; cursor:pointer; line-height:2.2; margin-right:5px; width:80px; height:30px; border-radius:5px; border:1px solid #dedede; text-align:center}
+.customer_faq .category2 li a:hover {float:left; display:block; cursor:pointer; line-height:2.2; margin-right:5px; background:#cb9356; color:#fff; width:80px; height:30px; border-radius:5px; border:1px solid #cb9356; text-align:center}
+.customer_faq .category2 .on a {float:left; display:block; cursor:pointer; line-height:2.2; margin-right:5px; background:#cb9356; color:#fff; width:80px; height:30px; border-radius:5px; border:1px solid #cb9356; text-align:center}
+
+.customer_faq .faq_t {clear:both; float:left; margin:30px 0; width:980px; letter-spacing:0; border-top:2px solid #cb9356}
+.customer_faq .faq_t th {height:45px; background:#f7f7f8; border-bottom:1px solid #dedede; font-weight:bold; text-align:center}
+.customer_faq .faq_t td {padding:10px 0; border-bottom:1px solid #dedede}
+.customer_faq .faq_t .question {color:#cb9356; font-weight:bold}
+.customer_faq .faq_t .reply {padding:20px 10px}
+.customer_faq .faq_t td a:hover {color:#c58b4b}
+.customer_faq .faq_t .best {background:#fbf7ee; font-weight:600}
+
+/*자주묻는질문-별점매기기*/
+.customer_faq .faq_t .star {float:left; margin-left:15px; margin-top:20px; padding:15px; width:900px; background:#f4f4f4; border:1px solid #dedede; border-radius:3px; text-align:left}
+.customer_faq .faq_t .star h5 {font-weight:600}
+.customer_faq .faq_t .star ul {margin-top:10px; width:246px; height:26px; font-size:12px; line-height:2; border-left:1px solid #dedede; border-bottom:1px solid #dedede; border-top:1px solid #dedede}
+.customer_faq .faq_t .star li a {float:left; display:block; cursor:pointer; width:48px; height:26px; border-right:1px solid #dedede; background:#fff; text-align:center}
+.customer_faq .faq_t .star li a:hover {float:left; display:block; width:48px; height:26px; border-right:1px solid #dedede; background:#ff610a; color:#fff; text-align:center}
+.customer_faq .faq_t .star .end {font-weight:600}
+
+.customer_faq .faq_t .faq_more {float:left; margin-left:15px; margin-top:20px; width:900px; text-align:left}
+.customer_faq .faq_t .faq_more .faq_input {float:left; padding:2px 2px 2px 5px; width:755px; height:26px; border-radius:5px; border:1px solid #dedede; color:#8c8c8d}
+.customer_faq .faq_t .faq_more .faq_btn a {float:left; display:block; cursor:pointer;margin-left:5px; border-radius:5px; line-height:2.2; font-weight:600; width:120px; height:30px; background:#cb9356; color:#fff; text-align:center}
+.customer_faq .faq_t .faq_more h4 {margin-bottom:5px; font-weight:600; color:#cb9356; font-size:17px}
+
+/*일대일문의게시판*/
+.customer_qna .qna_t {clear:both; float:left; margin:10px 0; width:980px; letter-spacing:0; border-top:2px solid #cb9356}
+.customer_qna .qna_t th {height:45px; background:#f7f7f8; border-bottom:1px solid #dedede; font-weight:bold; text-align:center}
+.customer_qna .qna_t td {padding:10px 0; border-bottom:1px solid #dedede}
+.customer_qna .qna_t .question {color:#cb9356; font-weight:bold}
+.customer_qna .qna_t .reply {background:#ffefe6; padding:20px 20px 20px 100px}
+.customer_qna .qna_t td a:hover {color:#c58b4b}
+.customer_qna .qna_t .b_r_no {border-right:none}
+.customer_qna .qna_t .tit {padding-left:10px}
+.customer_qna .qna_t .day {font-size:11px; border-right:none}
+.customer_qna .qna_t .num {font-size:11px; border-left:none}
+
+.customer_qna .qna_t .blue_b {color:#fe5b0e; font-weight:bold; margin-right:10px; margin-bottom:10px}
+.customer_qna .qna_t .text {width:752px; text-align:left; color:#8f8e8e; padding:20px; border:0px}
+.customer_qna .qna_t .reply {background-color:#f7f7f7; width:700px; padding:20px; text-align:left; border:0px}
+.customer_qna .qna_t .reply .txt {margin-left:15px; margin-top:15px}
+.customer_qna .qna_t .secret_form {float:left; margin:40px 0; width:100%; text-align:center}
+.customer_qna .qna_t .secret_form .ok a {float:left; display:block; margin-left:440px; width:60px; height:20px; border:1px solid #949494; text-align:center; color:#fff; background:#aaaaaa; line-height:1.6}
+.customer_qna .qna_t .secret_form .ok a:hover {color:#fff}
+
+.customer_qna .qna_notice {float:left; margin-bottom:30px; padding:15px; width:710px; border-radius:10px; border:#c8c8c8 1px solid; font-size:12px; line-height:1.8}
+.customer_qna .qna_notice span {color:#ff610a}
+
+.customer_qna .search {float:left; width:740px; height:34px; padding:10px 0 0 0; margin-top:10px}
+
+.customer_qna_wt .qna_t_write {float:left; margin:10px 0; width:980px; border-top:#c8c8c8 1px solid; border-top:2px solid #cb9356}
+.customer_qna_wt .qna_t_write td {height:35px; padding:10px; border-bottom:#c8c8c8 1px solid; text-align:left}
+.customer_qna_wt .qna_t_write th {height:35px; padding:10px 0 10px 20px; background-color:#f2f2f2; border-bottom:#c8c8c8 1px solid; text-align:left; font-weight:600}
+.customer_qna_wt .qna_t_write .secret {padding-left:5px; font-size:12px; color:#ff610a}
+.customer_qna_wt .qna_t_write .text {width:752px; text-align:left; color:#8f8e8e; padding:20px; border:0px;}
+.customer_qna_wt .qna_t_write .reply {background-color:#f7f7f7; width:700px; padding:20px; text-align:left; border:0px}
+.customer_qna_wt .qna_t_write .reply .txt {margin-left:15px; margin-top:15px}
+.customer_qna_wt .qna_t_write .blue_b {color:#c5833b; font-weight:bold; margin-right:10px; margin-bottom:10px}
+
+.qna_t_write .qna_t_list {float:left; width:740px; border-top:#c8c8c8 1px solid}
+.customer_qna .qna_t_list td {height:25px; padding:10px; border-bottom:#c8c8c8 1px solid; text-align:left}
+.customer_qna .qna_t_list th {height:25px; padding:10px 0 10px 20px; background-color:#f2f2f2; border-bottom:#c8c8c8 1px solid; text-align:left; font-weight:600}
+.customer_qna .qna_t_list td a:hover {color:#ff610a}
+
+.qna_t_btn {float:left; margin:10px 0 30px 0; width:980px; text-align:center}
+.qna_t_btn .comfirm a {float:left; margin-right:5px; margin-left:380px; display:block; width:120px; height:35px; border:1px solid #bd8028; text-align:center; color:#fff; background:#d49f34; font-weight:600; line-height:2.3; font-size:14px}
+.qna_t_btn .list a {float:left; display:block; width:120px; height:35px; border:1px solid #949494; text-align:center; color:#fff; background:#aaaaaa; font-weight:600; line-height:2.3; font-size:14px}
+.qna_t_btn .list2 a {float:right; display:block; width:120px; height:35px; border:1px solid #bd8028; text-align:center; color:#fff; background:#d49f34; font-weight:600; line-height:2.3; font-size:14px}
+
+.customer_qna .btn_my {float:left; width:100%; text-align:center}
+.customer_qna .btn_my .del_mod a {float:right; display:block; margin-right:3px; width:60px; height:20px; border:1px solid #949494; text-align:center; color:#fff; background:#aaaaaa; line-height:1.6}
+.customer_qna .btn_my .del_mod a:hover {color:#fff}
+
+.customer_qna .number {clear:both; float:left; margin-top:30px; width:980px; text-align:center; height:50px}
+.customer_qna .number .page_ov {color:#c88e4f; font-weight:bold}
+.customer_qna .number a:hover {color:#c88e4f}
+
+.select01 {height:24px; padding:3px; border:1px solid #c5c5c5}
+.select02 {height:22px; border:1px solid #c5c5c5}
+.select03 {border:1px solid #c5c5c5}
+
+.customer_qna_wt .btn_my {float:left; width:100%; text-align:center;}
+.customer_qna_wt .btn_my .del_mod a {float:right; display:block; margin-right:3px; width:60px; height:20px; border:1px solid #949494; text-align:center; color:#fff; background:#aaaaaa; line-height:1.6}
+.customer_qna_wt .btn_my .del_mod a:hover {color:#fff}
+
+.listn {border-top:1px solid #dcdcdc; float:left; width:980px; margin:20px 0 }
+.listn dl {border-bottom:1px solid #dcdcdc; padding:0 0 0 100px; position:relative;}
+.listn dl dt {position:absolute; left:0; top:9px; width:60px; background-position:75px 11px; background-repeat:no-repeat; font-size:12px; font-weight:bold; color:#666; padding:7px 20px 0 20px;}
+.listn dl dt a{color:#666;}
+.listn dl.prev dt {background:url(file:///C|/Users/EBIZ-DIG-JHL/AppData/Local/Microsoft/Windows/INetCache/IE/images/icon/blt_prev_list.png) no-repeat 65px 10px;}
+.listn dl.next dt {background:url(file:///C|/Users/EBIZ-DIG-JHL/AppData/Local/Microsoft/Windows/INetCache/IE/images/icon/blt_next_list.png) no-repeat 65px 10px;}
+.listn dl dd {text-overflow:ellipsis; white-space:nowrap; overflow:hidden;position:relative;background:#fff;padding:15px 0 15px 20px;}
+.listn dl dd a {font-size:13px; color:#888888;}
+.listn dl dd span.under_text {position:absolute;right:0;top:0;color:#888;line-height:100%;}
+.listn dl dd span.under_text span.re_text	{color:#eca60b;}
+.listn dl dd span.under_text span.cp_text	{color:#ed3200;}
+
+
+/* 예약방법안내 */
+.reservation_info{width:980px; float:left}
+
+.reservation_info .info {float:left; position:relative; width:980px}
+.reservation_info .info .tab {float:left; padding-left:20px; width:980px; height:46px; font-size:17px; line-height:2.5; background:url(http://img.gobs.co.kr/customer_tabBG.jpg) no-repeat}
+.reservation_info .info .tab span {font-weight:600; color:#ff610a}
+.reservation_info .info .container {float:left; padding:20px; width:980px; line-height:1.8}
+.reservation_info .info .container span {font-weight:600; color:#ff610a}
+.reservation_info .info .coinmg {margin:auto; display:block; padding:10px 0 30px 0}
+
+.reservation_info .info .refund_t {position:absolute; right:0; top:410px; width:300px; background:#fff; border:1px solid #4d4d4d; font-size:11px; font-family:'돋움', Dotum, sans-serif}
+.reservation_info .info .refund_t th {height:30px; background:#fe8585; color:#fff; font-weight:bold; text-align:center}
+.reservation_info .info .refund_t td {padding:5px; text-align:left; border:1px solid #4d4d4d}
+
+.reservation_info .preview {float:left; width:980px; margin:70px 0}
+.reservation_info .preview .preview_t {float:left; width:100%}
+.reservation_info .preview .preview_t td {padding-left:15px; height:35px; border-bottom:1px solid #e0e0e0}
+.reservation_info .preview .preview_t td a:hover {color:#d59921}
+.reservation_info .preview .preview_t .point {color:#d59921}
+.reservation_info .preview .preview_t .last {border-bottom:1px solid #000}
+.reservation_info .preview .preview_t .tit {font-size:15px; font-weight:600; border-bottom:1px solid #000}
+.reservation_info .preview .preview_t .tit .more {float:right; font-size:12px}
+
+
+/* 예약구매조회 */
+.reservation_login{width:978px; margin:auto; background-color:#faf9f5; height:255px; border:1px solid #ccbd8f; position:relative;}
+.reservation_login .l_input	{position:absolute; top:50px; left:270px}
+.reservation_login .l_input	li{position:relative; padding:0 100px 0 58px; margin-bottom:10px;}
+.reservation_login .l_input li strong{font-size:14px; color:#5f5125; position:absolute; left:0; top:0; line-height:25px; font-weight:600}
+.reservation_login .l_input .input {padding:5px; border:1px solid #dedede; width:250px; margin-left:10px; height: 20px; font-size: 13px; color:#999999; background:#fff}
+.reservation_login .login_btn{position:absolute; top:55px; left:610px; display:block;}
+.reservation_login .login_btn a{border:1px solid #bd8028; text-align:center; color:#fff; background:#d49f34; line-height:4; font-weight:600; font-size:16px; padding:26px 40px}
+.reservation_login .lotx{position:absolute; top:170px; left:240px; text-align:center}
+.reservation_login .lotx p{font-size:12px; color:#797979}
+
+.reser_step {float:left; width:980px; height:770px; background:url(http://img.gobs.co.kr/reser_step.jpg) no-repeat; margin-top:30px}
+.reser_step td{padding-left:20px}
+.reser_step span {font-weight:600; color:#ff610a}
+.reser_step a {text-decoration:underline; color:#022cfe}
+.reser_stepT{margin-top:50px; clear:both}
+
+.reservation_list{width:980px; margin:auto;}
+.reservation_list .tab {clear:both; float:left; margin:20px 0; width:980px; height:30px; border-bottom:2px solid #cf8a39; font-size:14px}
+.reservation_list .tab li {display:block; float:left; cursor:pointer; width:145px; height:30px; padding:0 15px; line-height:2; text-align:center; color:#cf8a39; border:1px solid #cf8a39; border-top-left-radius:10px; border-top-right-radius:10px}
+.reservation_list .tab li.on {background:#cf8a39; color:#fff}
+
+.reservation_list .period {clear:both; float:right; margin:10px 0; width:740px; height:20px}
+.reservation_list .period li {float:right}
+
+.reservation_list .member_info_t {clear:both; float:left; margin-bottom:20px; width:980px; text-align:left; border-top:1px solid #dfdfdf; }
+.reservation_list .member_info_t tr:hover {background:#feebd4; cursor:pointer}
+.reservation_list .member_info_t th {height:35px; background:#f5f5f5; border-bottom:1px solid #dfdfdf; text-align:center}
+.reservation_list .member_info_t td {padding:10px 0; height:35px; border-bottom:1px solid #dfdfdf; text-align:center}
+.reservation_list .member_info_t span {font-weight:600; color:#ff610a}
+.reservation_list .member_info_t .name {padding-left:10px; text-align:left}
+.reservation_list .now_img {position:relative; margin-left:45px; margin-top:5px; width:86px; text-align:center}
+.reservation_list .now_img .now_pop02 {position:absolute; top:13px; left:-65px; background:url(http://img.gobs.co.kr/customer_reserBG02.png) no-repeat; padding:10px 0 5px 5px; width:172px; height:33px; font-size:11px; font-family:'돋움', Dotum, sans-serif; text-align:left}
+.reservation_list .now_img .now_pop03 {position:absolute; top:13px; left:-110px; background:url(http://img.gobs.co.kr/customer_reserBG03.png) no-repeat; padding:10px 0 5px 5px; width:295px; height:33px; font-size:11px; font-family:'돋움', Dotum, sans-serif; text-align:left}
+.reservation_list .now_img .now_pop05 {position:absolute; top:13px; left:-50px; background:url(http://img.gobs.co.kr/customer_reserBG05.png) no-repeat; padding:10px 0 5px 5px; width:242px; height:33px; font-size:11px; font-family:'돋움', Dotum, sans-serif; text-align:left}
+
+#number2 {float:left; width:100%; text-align:center; height:48px; margin:25px 0}
+#number2 ul{width:831px; text-align:center}
+#number2 li {float:left; display:block; padding:0 10px}
+#number2 li a:hover{color:#fe5b0e}
+#number2 .page_ov {padding:0 10px; color:#fe5b0e; font-weight:bold}
+#number2 .page {padding:0 10px}
+
+.reservation_view {width:980px}
+.reservation_view .reser_step02 {position:relative; float:left; width:980px}
+.reservation_view h3 {display:block; float:left; width:100%; height:30px; text-align:left}
+.reservation_view h4 {display:block; margin-top:30px; float:left; width:100%; height:30px; text-align:left}
+.reservation_view .detail_t {clear:both; float:left; margin-bottom:20px; width:980px; text-align:left; border-top:1px solid #dfdfdf}
+.reservation_view .detail_t th {height:35px; text-align:left; padding-left:15px; background:#f5f5f5; border-bottom:1px solid #dfdfdf}
+.reservation_view .detail_t td {height:20px; text-align:left; padding-left:15px; padding-top:10px; padding-bottom:10px; border-bottom:1px solid #dfdfdf}
+.reservation_view .detail_t span {font-weight:600; color:#ff610a}
+.reservation_view .detail_t .input2 {padding:5px; height:10px; border:1px solid #dfdfdf; background:#fff; font-size:15px; color:#999999; text-align:left}
+.reservation_view .detail_t .cash {padding:15px; background:#fef1e9}
+.reservation_view .detail_t .cash p {line-height:2.5}
+.reservation_view .detail_t .center {text-align:center; padding-left:0px; padding-top:10px; padding-bottom:10px}
+
+#wrapper .btn {float:left; margin:30px 0 50px 0; width:100%; text-align:center}
+
+
+
+
+/*결제페이지 */
+
+#container .sub_wraps {width:980px; margin:0 auto;  float:left}
+#wrapper1 { width: 1002px; margin:0 auto; margin-bottom:120px; float:left}
+#reser_check {float:left; padding:10px; margin-top:50px; width:304px; background:#fff; border:1px solid #b9b9b9; font-family:'돋움', Dotum, sans-serif; font-size:12px; color:#4b4b4c}
+#reser_check h3 {margin:5px 0; letter-spacing:-0.3px; font-family: 'Nanum Gothic', '나눔고딕', 'NanumGothicWeb', '맑은 고딕', 'Malgun Gothic', '돋움', Dotum, sans-serif; font-size:20px; font-weight:600}
+#reser_check .goods_box {float:left; padding:15px; margin-bottom:5px; width:274px; background:#f4f3f3; border-bottom:3px solid #eae9e9}
+#reser_check .goods_box .name {padding-left:14px; font-weight:bold; font-size:15px; vertical-align:top; letter-spacing:-0.3px}
+#reser_check .receipt {float:left; width:304px}
+#reser_check .receipt .line {border-bottom:1px solid #d5d5d5}
+#reser_check .receipt .tit {font-weight:bold; font-size:14px}
+#reser_check .receipt .comment {font-size:11px}
+#reser_check .receipt .total {font-family:Tahoma; color:#d31200; font-weight:bold; font-size:30px; letter-spacing:-1px}
+#reser_check .receipt .total_won {color:#d31200; font-weight:bold; font-size:12px}
+#reser_check .receipt th {text-align:left}
+#reser_check .receipt td {text-align:right}
+#reser_check .receipt .p_l_10 {padding-left:10px}
+#reser_check .receipt .p_r_10 {padding-right:10px}
+#reser_check .receipt .p_l_20 {padding-left:20px}
+#reser_check .receipt .p_r_20 {padding-right:20px}
+
+#reser_enter {float:right; margin-top:50px; width:655px; background:#fff; border:1px solid #b9b9b9; font-family:'돋움', Dotum, sans-serif; font-size:12px; color:#4b4b4c}
+#reser_enter .notice {float:left; padding:15px 10px 0 10px; font-size:11px; border-top:1px solid #b9b9b9; border-bottom:1px solid #b9b9b9; }
+#reser_enter .notice span {color:#147adc}
+#reser_enter .notice p {margin-bottom:10px}
+#reser_enter .input {float:left; padding:0 10px 30px 10px; width:635px}
+#reser_enter .input h3 {float:left; margin:30px 0 5px 0; letter-spacing:-0.3px; font-family: 'Nanum Gothic', '나눔고딕', 'NanumGothicWeb', '맑은 고딕', 'Malgun Gothic', '돋움', Dotum, sans-serif; font-size:20px; font-weight:600}
+#reser_enter .input .input_t {float:left; width:635px; text-align:left; border-top:1px solid #4f525c}
+#reser_enter .input .input_t th {padding-left: 20px; border-bottom: 1px solid #dbdee6; background-color: #f9f9f9; font-weight: bold}
+#reser_enter .input .input_t td {padding-left: 20px; border-bottom: 1px solid #dbdee6}
+#reser_enter .input .input_t input {height: 22px; padding-left:5px; font-family:'돋움', Dotum, sans-serif; border-top: 1px solid #a3a4a6; border-left: 1px solid #a3a4a6; border-right: 1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb}
+#reser_enter .input .input_t select {height: 22px; font-family:'돋움', Dotum, sans-serif; border-top: 1px solid #a3a4a6; border-left: 1px solid #a3a4a6; border-right: 1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb}
+#reser_enter .input .input_t textarea {padding-left:5px; font-family:'돋움', Dotum, sans-serif; border-top: 1px solid #a3a4a6; border-left: 1px solid #a3a4a6; border-right: 1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb}
+#reser_enter .input .input_t .red {padding-top:5px; font-size:11px; color:#d31200; letter-spacing:-0.3px}
+#reser_enter .input .input_t ul {float:left; width:465px}
+#reser_enter .input .input_t li {float:left; padding-right:15px}
+#reser_enter .input .input_t .comment {float:left; padding:10px 10px 0 10px; margin-top:10px; width:445px; font-size:12px; background:#f4f6fa; border:2px solid #c5c7cd}
+#reser_enter .input .input_t .comment p {margin-bottom:10px}
+#reser_enter .input .input_t .p_10 {padding:10px 0 10px 20px}
+
+#reser_enter .input .Agree {float:left; margin-top:20px}
+#reser_enter .input .Agree .all {background-color: #f8f8f8; font-weight:bold; border-bottom: 1px solid #d0d0d0; border-left: 1px solid #d0d0d0; border-right: 1px solid #d0d0d0; padding: 5px}
+#reser_enter .input .Agree .list_warp {background-color: #f8f8f8; border-top: 1px solid #d0d0d0; border-left: 1px solid #d0d0d0; border-right: 1px solid #d0d0d0}
+#reser_enter .input .Agree .list {padding:5px; min-height:30px; border-bottom: 1px solid #d0d0d0; border-top: 1px solid #fff}
+
+#reser_enter .input .Agree .list .title {position:relative; width:100%; overflow:hidden}
+#reser_enter .input .Agree .list .title .view {position: absolute; right: 10px; top:0px; height:28px; line-height: 28px; font-size: 11px; color: #008dc9; white-space: nowrap; letter-spacing: -1px; }
+
+#reser_enter .input .Agree .list .contents_wraps {margin:5px; font-size:11px; }
+#reser_enter .input .Agree .list .contents_wraps .contentss {max-height:100px; padding:10px; overflow-x: auto; border: 1px solid #afafaf;  background-color: #eee; }
+#reser_enter .input .Agree .list .contents_wraps .contentss p {padding:4px 0}
+#reser_enter .input .Agree .list .contents_wraps .contentss .red {color:#d31200; font-size:12px; font-weight:bold}
+#reser_enter .input .Agree .list .contents_wraps .contentss table {background:#fff; width:300px}
+#reser_enter .input .Agree .list .contents_wraps .contentss table td {text-align:center; border:1px solid #b9b9b9}
+#reser_enter .input .Agree .list .contents_wraps .contentss table th {text-align:center; background:#d9d9d9; color:#313131; border:1px solid #b9b9b9}
+#reser_enter .input .Agree .agree_notice {float:left; padding:5px 0 0 5px; width:630px; font-size: 11px}
+#reser_enter .input .btn {float:left; width:100%; text-align:center}
+
+
+/*결제페이지-무이자할부혜택*/
+#reserLeft {float:left; width:324px}
+#cardFree {float:left; margin-top:30px; width:324px; font-family:'돋움', Dotum, sans-serif; font-size:12px; color:#4b4b4c}
+#cardFree h3 {letter-spacing:-0.8px}
+#cardFree table {float:left; margin:5px 0 10px 0; width:100%; background:#fff; color:#656565; border:1px solid #d0d0d0}
+#cardFree table td {border-bottom:1px solid #d0d0d0; text-align:center}
+#cardFree p {font-size:11px}
+
+
+/* 이용약관  */
+.boxw{width:980px; float:left; margin-bottom:120px}
+
+#noRoom {clear:both; float:left; width:954px; padding:60px 0; font-size:25px; letter-spacing:-0.5px; color:#6c6c6c; font-weight:600; text-align:center}
+
+
+
+
+
+
+
+/*호텔바우처*/
+#reser_pop2 {float:left; margin:10px; padding:10px; width:746px; background:#fff; border-radius:10px; border:1px solid #dedede; letter-spacing:-0.1px; text-align:left; font-family:'돋움', Dotum, sans-serif}
+#reser_pop2 .voucher_t {float:left; width:734px; padding:16px; background-color:#fff}
+#reser_pop2 .voucher_t .top {margin:auto; width:717px; height:72px; padding-top:140px; text-align:center; font-size:14px; line-height:1.4; letter-spacing:-1px; text-align:center; color:#461c03; font-weight:bold; background:url(http://img.go.co.kr/mail_voucher_010.jpg) no-repeat}
+#reser_pop2 .voucher_t .bg {float:left; margin-left:9px; width:717px; text-align:left; background:url(http://img.gobs.co.kr/mail_voucher_03.jpg) repeat-y}
+#reser_pop2 .voucher_t .bg .reserInfo {margin:auto; width:690px; height:115px;text-align:left; background:url(http://img.gobs.co.kr/mail_voucher_04.jpg) no-repeat; font-size:12px; color:#461c03}
+#reser_pop2 .voucher_t .bg .reserInfo .tit {padding-left:20px; font-weight:bold}
+#reser_pop2 .voucher_t .bg .reserInfo2 {margin:auto; width:690px; margin-top:20px; text-align:left; border:1px solid #d5d5d5; font-size:12px; color:#461c03; line-height:1.6}
+#reser_pop2 .voucher_t .bg .reserInfo2 th {width:125px; padding-left:5px; border-right:1px solid #d5d5d5; border-bottom:1px solid #d5d5d5; background-color:#edecea}
+#reser_pop2 .voucher_t .bg .reserInfo2 td {width:465px; padding:5px; border-bottom:1px solid #d5d5d5}
+#reser_pop2 .voucher_t .bg .notice {margin:auto; margin-top:20px; width:690px; text-align:left; color:#bd4301; line-height:1.6; font-size:12px}
+#reser_pop2 .voucher_t .bg .notice .notice_bg {padding:10px; background:url(http://img.gobs.co.kr/mail_voucher_07.jpg) repeat-y}
+#reser_pop2 .voucher_t .bg .ment {margin:auto; width:690px; height:54px; margin-top:20px; font-size:13px; line-height:1.6; letter-spacing:-0.8px; color:#2f2e2e; text-align:center; background:url(http://img.gobs.co.kr/mail_voucher_011.jpg) no-repeat}
+
+
+
+/*현금결제영수증*/
+#bill_print {width:400px; height:639px; background:url(http://img.ocean2you.co.kr/bill_bg.jpg) no-repeat; font-family:Dotum,'돋움'; font-size:11px; color:#161616}
+#bill_print .last_name {text-align:right; padding-right:60px}
+#bill_print .p_l {padding-left:40px}
+
+
+
+/*메뉴 통합-객실안내_20161219*/
+#over_tr{cursor: pointer;}
+#room_result .title{padding-top:77px; margin-bottom:20px; float:left; width:980px; border-bottom:2px solid #e9e9e9;}
+#room_result .title span{display:inline-block; margin-top:20px; margin-left:13px; font-size:18px;}
+#room_result .reservation_btn{text-align:right; margin-top:-115px; padding-top:10px; float: right; width: 304px; height: 112px; background: url(http://img.mayhillsresort.kr/btn_reservation.jpg) no-repeat;}
+#room_result .reservation_btn .normal_price{font-size:12px; color:#fff; padding-right:15px;}
+#room_result .reservation_btn .normal_price span{font-size:16px; text-decoration:line-through; font-weight:bolder}
+#room_result .reservation_btn .sale_price{font-size:12px; color:#fff; padding-right:15px;}
+#room_result .reservation_btn .sale_price span{font-size:24px; font-weight:bolder}
+
+#room_result .reservation_btn-full{text-align:right; margin-top:-115px; padding-top:10px; float: right; width: 304px; height: 112px; background: url(http://img.mayhillsresort.kr/btn_reservation-full.jpg) no-repeat;}
+#room_result .reservation_btn-full .normal_price{font-size:12px; color:#fff; padding-right:13px;}
+#room_result .reservation_btn-full .normal_price span{font-size:16px; text-decoration:line-through; font-weight:bolder}
+#room_result .reservation_btn-full .sale_price{font-size:12px; color:#fff; padding-right:12px;}
+#room_result .reservation_btn-full .sale_price span{font-size:24px; font-weight:bolder}
+#room_result .reservation_btn-full .date{margin-right:100px; font-size:19px; color:#fff; padding-right:15px;}
+
+#rsv_sang #rsv_s_list_box2 #rsv_s_list td.center.ss{text-align:center;}
+#room .title{width:980px; margin-bottom: 20px;border-bottom: 2px solid #e9e9e9;}
+
+
+
+/* 주변 이용권_20161223 */
+.attractions_use{float:left; width:980px} 
+.attractions_use dl{padding:20px 0; width:980px; border-top:solid 1px #e3e3e3; float:left; margin-bottom:30px; line-height:2.8}
+.attractions_use dl:nth-of-type(1){border-top:0px;}
+.attractions_use dl dt{float:left}
+.attractions_use dl dd{float:left; margin-bottom:25px}
+.attractions_use dl dd h3{font-size:18px;color:#333;padding:10px 0 0 0;}
+.attractions_use dl dd ul{}
+.attractions_use dl dd ul li{color:#777; font-size:13px; padding-right:25px; float:left }
+.attractions_use dl dd div{color:#777;line-height:150%; padding:5px 0;}
+.attractions_use dl dt .photo{width:980px; height:480px; overflow:hidden;}
+.attractions_use dl dt .photo img{margin-top:-100px; height:150%;}
+
+
+
+/* 리스트 내 썸네일, 예약 버튼 추가_20161226 */
+#thumb {width: 165px; height: 110px !important; border-radius: 5px; padding: 15px;}
+#rsv_sang #rsv_s_list_box2 #rsv_s_list td.ss2{padding-left: 10px;}
+#btn, #btn2 {width:80px; padding:5px 10px;}
+#btn{background-color:#fc762e; border-radius:6px; color:#fff;}
+#btn2{background-color:#ccc; border-radius:6px; color:#000;}
+#rsv_sang #rsv_s_list_box2 #rsv_s_list .over_tr .pl15{font-size:16px;}
+
+
+
+/* SNS 로그인 페이지 추가_수정_20170322 */
+#container .sub_wrap_login {clear:both; width: 978px; height:610px; margin:0 auto; padding: 30px 0 0 0; background-color: #faf9f5; border: 1px solid #ccbd8f;}
+#container .sub_wrap_login .snsLogin .snsLarge{margin: auto; width: 268px;}
+#container .sub_wrap_login .snsLogin .snsLarge li{float: left; text-align: center; letter-spacing: -0.3px; font-weight: 600; line-height: 55px; font-size: 15px;}
+#container .sub_wrap_login .snsLogin .snsLarge .naver{margin-bottom: 10px; border-radius: 5px; width: 268px; height: 55px; background: #1ec800; color: #fff;}
+#container .sub_wrap_login .snsLogin .snsLarge .kakao{margin-bottom: 10px; border-radius: 5px; width: 268px; height: 55px; background: #ffeb00; color: #3b1e1e;}
+#container .sub_wrap_login .snsLogin .snsLarge .facebook{margin-bottom: 10px; border-radius: 5px; width: 268px; height: 55px; background: #3b5998; color: #fff;}
+#container .sub_wrap_login .snsLogin .snsLarge .google{margin-bottom: 10px; border-radius: 5px; width: 268px; height: 55px; background: #d14c3c; color: #fff;}
+#container .sub_wrap_login .snsLogin .snsLarge .daum{margin-bottom: 10px; border:1px solid #6886fa; border-radius: 5px; width: 268px; height: 55px; background: #fff; color: #fff;}
+#container .sub_wrap_login .snsLogin .snsLarge .naver a{color: #fff;}
+#container .sub_wrap_login .snsLogin .snsLarge .kakao a{color: #3b1e1e;}
+#container .sub_wrap_login .snsLogin .snsLarge .facebook a{color: #fff;}
+#container .sub_wrap_login .snsLogin .snsLarge .google a{color: #fff;}
+#container .sub_wrap_login .snsLogin .snsLarge .daum a{color: #000;}
+#container .sub_wrap_login .snsLogin .alert {float:left; width:652px; margin-top:20px; margin-left:250px}
+#container .sub_wrap_login .snsLogin .alert .img {float:left; width:42px}
+#container .sub_wrap_login .snsLogin .alert .text {float:right; padding-left:10px; margin-bottom:50px; width:600px; line-height:18px}
+#container .sub_wrap_login .snsLogin .alert .text span {color:#ff610a}
+#container .sub_wrap_login .snsLogin .sns_app_bn{width:978px; margin-top:47px;  }
+
+
+
+
+/* 갤러리 전체화면_20161227 */
+.view_img_layer {visibility:hidden; position:absolute;top:30%;left:50%;margin-left:-314px;width:628px;height:468px;border:3px solid #f37720;background:#fff;z-index:1000;padding:25px 0 0 30px;}
+.view_img_layer .view_title {background:url(http://img.go.co.kr/ico_camera.jpg) no-repeat 0 5px;font-size:18px;font-weight:600;color:#323232;padding:0 0 15px 33px;}
+.view_img_layer .view_layer_close {position:absolute; right:-1px; top:-1px;cursor:pointer;}
+.view_img_layer .img_area {position:relative;width:598px;overflow:hidden;}
+.view_img_layer .img_area li {width:598px;height:398px;text-align:center;float:left;}
+.view_img_layer .img_area li img {max-width:598px;height:398px;}
+.view_img_layer .img_area a.btn3 {background:url(http://img.go.co.kr/bg_btn_rolling02.png) no-repeat 0 0;width:44px;height:44px;text-indent:-9999px;position:absolute;top:50%;margin-top:-22px;}
+.view_img_layer .img_area a.next3 {background-position:100% 0;right:0;}
+.img_expansion {position: absolute; top:50%; left:50%; margin:-52px 0 0 -37px; z-index: 999;}
+.view_layer_close{float:right; position:relative; top: -110px; right: -48px; cursor:pointer}
+.view_imgtxt{width:100%; background:#000; opacity: 0.8; position: absolute; bottom: 0px; height: 35px; color: #fff; line-height: 2.5; font-size: 14px; font-weight: 600; }
+
+
+
+/* 스크롤시 상단 고정 메뉴_20161228 */
+#gnb2 li.menu_logo img{height:35px; float:left;margin-top:7px; margin-right:30px;}
+#gnb2 li.reserv {width:110px !important; background-color: #fc762e; border-radius: 6px; color: #fff; margin-top:2px; margin-left:20px;}
+#gnb2 li.reserv a{color:#fff !important; font-size:15px; line-height:2.8;  font-weight:600; display:block;}
+#gnb_wrap2{clear:both; width:100%;}
+#gnb2{width:100%; text-align:center; margin:auto; clear:both; height:47px; background-color:#222222;}
+#gnb2 ul{margin:auto; width:1247px !important; text-align:center; height:47px}
+#gnb2 li.menu{display:block; width:163px; float:left;}
+#gnb2 li.menu a{color:#c5c5c5; font-size:15px; line-height:2.8;  font-weight:600; display:block;}
+#gnb2 li.menu a:hover{color:#f0cc7f; font-size:15px; line-height:2.8;  display:block;}
+#gnb2 li.menu_on{display:block; float:left; width:163px}
+#gnb2 li.menu_on a{color:#f0cc7f; font-size:15px; line-height:2.8;  font-weight:600; display:block;}
+#daySearch2 {margin:0 auto; text-align:center; padding:10px 0 0 20px; width:1286px !important; height:79px; background:#686868; border-bottom-left-radius:5px; border-bottom-right-radius:5px;}
+#daySearch2 ul {display:inline-block; margin:auto; width: 1080px; color:#fff; font-size:14px; text-align:left; letter-spacing:-0.3px}
+#daySearch2 li {float:left; padding:0 12px;}
+#daySearch2 li:first-child {margin-left:0px; padding-left:11px;}
+#daySearch2 p {text-align:left; line-height:2}
+#daySearch2 p .s_13 {font-size:13px}
+#daySearch2 .input {border-radius:3px; padding:6px; border:none; color:#686868; font-size:13px}
+#daySearch2 .input_day {border-radius:3px; background:#fff}
+#daySearch2 .room_num {margin-top:28px; font-weight:600}
+#daySearch2 .checkinTxt {font-size: 15px; padding-top: 30px; color: #fdf400; font-weight: 600;}
+
+
+
+/* 최저가 추가할인 팝업_20161228 */
+#rsv_wrapper #discount_pop {position:absolute; top:195px; right:15px; width:275px; text-align:left; line-height:2}
+#rsv_wrapper #discount_pop.on {z-index:1;}
+#rsv_wrapper #discount_pop .tit {float:left; padding-top:10px; padding-left:10px; width:265px; height:25px; color:#fff; font-weight:600; background:url(http://img.go.co.kr/discount_bg.png) no-repeat}
+#rsv_wrapper #discount_pop .text {float:left; padding:10px; width:253px; color:#3a3a3a; font-size:12px; line-height:1.5; background:#fff; border-left:1px solid #3a3a3a; border-right:1px solid #3a3a3a; border-bottom:1px solid #3a3a3a}
+#rsv_wrapper #discount_pop .text span {color:#ec5700; font-weight:600}
+
+
+
+/* 추가할인 팝업_20161228 */
+#pay_discount_pop {padding:15px; width:445px; height:600px; background:#fff; border:3px solid #fd581d}
+#pay_discount_pop h3 {font-size:15px; font-weight:600; color:#fd581d}
+#pay_discount_pop table {float:left; margin-bottom:30px; width:445px; border-top:1px solid #e5e5e8; text-align:left}
+#pay_discount_pop table th {height:35px; background:#f5f5f5; padding-left:15px; font-weight:600; border-bottom:1px solid #e5e5e8}
+#pay_discount_pop table td {height:35px; padding-left:15px; border-bottom:1px solid #e5e5e8}
+#pay_discount_pop table .dis {color:#ff0000; font-weight:bold; font-family:Tahoma}
+#pay_discount_pop table .pri {font-weight:bold; font-family:Tahoma}
+#pay_discount_pop .btn {float:left; width:100%; text-align:center}
+#pay_discount_pop .input {padding:5px; height:10px; border:1px solid #dedede; text-align:left; font-weight:bold; font-family:Tahoma}
+#pay_discount_pop .select {padding:3px; height:25px; border:1px solid #dedede; text-align:left}
+
+
+
+/* 고객센터 추가, 예약하기 버튼_20170321 수정_장혜림 */
+#callCenter{position:fixed;  left:50%; margin-left:-630px; width:112px; height:172px; border-radius:4px; color: #fff; text-align:center; padding:10px 0;}
+#callCenter img{width:60px; margin-top:25px;}
+#callCenter div{font-size: 20px; margin-top:20px; line-height:1.3; font-weight: 600;}
+#callCenter span{font-size:15px; font-weight: 500;}
+#callcenter2 {width: 112px; height: 172px; background-color:#2d4f88; border-radius: 4px; color: #fff; text-align: center; padding: 10px 0;}
+
+#reservBtn{position:fixed; right:17.55%; width:112px; height:172px; border-radius:4px; color: #fff; text-align:center; padding:10px 0;}
+#reservBtn img{width:60px; margin-top:25px;}
+#reservBtn div{font-size: 20px; margin-top:20px; line-height:1.3; font-weight: 600;}
+#reservBtn2 {position: absolute; top: 0px; width: 112px; height: 165px; background-color: #fa6b0a; border-radius: 4px; color: #fff; text-align: center; padding: 10px 0 13px 0;}
+#cal_wrap2 .cal_result .allprice {margin: auto; margin-top: 10px; padding: 5px 0 10px 0; width: 244px; letter-spacing: -0.5px; font-weight: 600; font-size: 14px; text-align: center; background-color: #ffffff; border: 3px solid #d1d5db; font-family: '나눔고딕', NanumGothic, 'Nanum Gothic'; color: #222;}
+#cal_wrap2 .cal_result .allprice .num {vertical-align: -2px; font-weight: 800; font-size: 25px; color: #ff1200; letter-spacing: -1px;}
+#cal_wrap2 .cal_result .allprice .summary {font-size: 12px; font-weight: 400;}
+#rsv_wrapper .price_t h2 {float: left; font-size: 35px; font-weight: bold; color: #434343;}
+
+
+
+
+
+/* 고코투어 로고 추가_20170103 */
+#container .logo_c{float: right; padding-top: 38px;}
+#container .reser_logo{float:right;}
+#reser_enter .input .btn .reser_logo2{margin-top:30px; float: center;}
+#container #reservation_go #rsv_wrapper .price_t img{padding-right:20px;}
+#container .title img{padding-right:20px;}
+
+
+#quickMenu2 {z-index: 99999; position: fixed; bottom: 70px; left: 50%; display: block; width: 30px; height: 45px; font: 0/0 arial; padding: 0; margin-left: 559px; outline: none;}
+
+
+
+/* 이용안내 텍스트 크기 변경_20170112 */
+#container #info_box  .info_tit{font-size:18px;}
+#container #info_box  .info_txt{font-size:16px; line-height:1.7;}
+#rsv_s_list .sub_list_img{left:91px !important;}
+
+/* detail_btnLogo - 상세페이지, page_btnLogo - 전체페이지 하단 로고 추가_2017_0201 */
+.page_btnLogo, .detail_btnLogo { position: relative; width: 800px; height: 110px; margin: 0 auto;  background: url("http://img.go.co.kr/btnlogo.png") no-repeat center; background-size: 140px; background-color: #f1f1f1; }
+.page_btnLogo {width: 100%;}
+/* 실시간문의 배너_20170208_강혜준 */
+#rt_banner {/* position: fixed; top: 150px; left: 50%; margin-left: -634px; */ width: 110px; height: 223px; border: 1px solid #FE620F; text-align: center; letter-spacing: -1px; background: #fff;}
+#rt_banner h2 {color: #fff; height: 29px;	background: #fe620f;font-size: 15px; font-weight: 400; line-height: 1.8em;}
+#rt_banner p {line-height: 1.45em; font-weight: 600; font-size: 14px; color: #383838;}
+#rt_banner h2 + p {margin-top: 6px;}
+#rt_banner .fc {color: #fe620f;}
+#rt_banner .rt_btn {margin-top: 4px;}
+#rt_banner .rt_btn a {position: relative; display: inline-block; width: 90px;	height: 26px; font-size:13px; color:#fff; font-weight: 400; line-height: 2em; background: #fe620f; letter-spacing: 0;}
+#rt_banner .rt_arrow {position: relative; left: 8px;}
+
+#rt_banner .rt_logo{position: relative; top: 4px; width: 100%; height: 30px; overflow-y: hidden; background: url("http://img.go.co.kr/logo.png") no-repeat center 5px; background-size: 50px;}
+/* 앱설치 유도 사이드 배너_20170321_장혜림*/
+#rt_app_banner {width: 112px; height: 218px; border: 1px solid #ffcc99; text-align: center;}
+/* 실시간문의 모달 */
+#q_modal {position: fixed; z-index: 6; width: 400px; height: 260px; top: 50%; margin-top: -130px; left: 50%; margin-left: -200px; background: #fff;}
+#q_modal h2 {height: 64px; margin: 0 auto; font-family: "Nanum Gothic", sans-serif; font-size: 26px; color: #fff; font-weight: 700; text-align: center; line-height: 2.6em; background: #FB6B0A;}
+#q_modal .q_clsBtn {position: absolute; right: 0;	top: 0;	 display: inline-block; width: 64px; height: 64px; 
+	background: url("http://img.go.co.kr/mobile/q_picto.png") no-repeat center -520px; 
+}
+#q_modal ul {width: 68%; margin: 0 auto; }
+#q_modal ul li {position: relative; height: 60px;	line-height: 3.8em; font-size: 17px; border-bottom: 1px solid #ddd; text-align: left;}
+#q_modal ul li:last-child { border: none; }
+#q_modal ul li a {display: block; padding-left: 100px; letter-spacing: -1px; color: #333;}
+#q_modal ul li a:before {content: ""; position: absolute; left: 34px;	top: 0;	 display: inline-block; width: 50px; height: 60px;
+background: url("http://img.go.co.kr/mobile/q_picto.png") no-repeat; 
+background-size: 54px; background-position: center -8px;}
+#q_modal ul li:nth-child(2) a:before {background-position: center -85px;}
+#q_modal ul li:nth-child(3) a:before {background-size: 70px; background-position: center -422px;}
+/* 로그인버튼 수정_20170220_강혜준 */
+.snsLarge a {position: relative; display: block; width: 268px; height: 55px;}
+.snsLarge a img {position: absolute;}
+.snsLarge a span {position: relative; display: inline-block; width: 78%;
+	float:right; border-left: 1px solid; text-align: center; border-left: 1px solid rgba(0,0,0,.196);}
+.snsLarge .daum a span {width: 79%;}
+.snsLarge a img {position: absolute; top: 19px; left: 19px;}
+.snsLarge .daum a img {top: 16px; left: 8px;}
+.snsLarge .kakao a img {top: 17px; left: 17px;}
+.snsLarge .facebook a img {top: 13px; left: 16px;}
+/* 앱설치 링크 문자발송 팝업 20170322 */
+#app_pop_w{width:543px; height:379px;  background:#fff; border-radius:3px; position:absolute; }
+#app_pop_w .app_pop_title{margin:auto; text-align:center; margin-top:20px;}
+#app_pop_w .app_pop_close{position:relative; top:-45px; left:500px}
+#app_pop_w .app_pop_img{position:absolute; margin:20px 35px 25px 12px; }
+#app_pop_w .app_pop_txt{ margin:auto; text-align:left;  color:#000000; letter-spacing:-0.4px; line-height:1.2; margin-top:30px; margin-left:150px; }
+#app_pop_w .app_pop_txt .txt1{font-size:22px}
+#app_pop_w .app_pop_txt .txt1 .txt1_F{font-size:28px;font-weight:bold; color:#f95c24; letter-spacing:-0.8px; text-decoration:underline}
+#app_pop_w .app_pop_txt .txt2{font-size:15px; margin-top:18px; letter-spacing:-0.2px; line-height:1.3; }
+#app_pop_w .app_pop_txt .txt2 .txt2_F{font-size:15px; color:#f95c24;  font-weight:bold}
+#app_pop_w .app_pop_num{margin-top:40px; text-align:center;}
+#app_pop_w .inputp {background: #fff; font-size: 0.938em; font-weight: 600; color:#666666; height:32px; border-radius: 5px; border: 1px solid #c4c4c4; padding:0 10px}
+#app_pop_w .app_pop_btn{display: inline-block; width:84px; height:32px; background:#f95c24; border:1px solid #d53800; border-radius:5px; color:#fff; text-align:center; font-size:15px; font-weight:bold; cursor:pointer; line-height: 2.0;}
+#app_pop_w .app_pop_rtxt{width:100%; background:#344570; color:#fff; height:95px; margin-top:33px}
+#app_pop_w .app_pop_rtxt .app_pop_rtxt_txt{font-size:11px; padding-top:12px; margin-left:25px; font-family:'돋움', Dotum, sans-serif; letter-spacing:-0.4px;}
+/* 단체문의 20170327 */
+.section_wrap{width:980px; margin:0 auto; overflow:hidden;}
+.section_wrap9{width:980px; height:1434px; margin:0 auto; overflow:hidden; background:url(../images/9_1_11.jpg) no-repeat;}
+.section_left{width:164px; float:left;}
+.section_right{width:860px;float:left;}
+.section_left1{width:364px; float:left;}
+.section_right1{width:460px;float:left;}
+.section_text{width:980px; margin:0 auto; overflow:hidden; padding-bottom:40px;padding-top:50px}
+.section_text ul{border-top:2px solid #cf0000;}
+.section_text li{color:#6a6a6a;font-size:13px;line-height:140%}
+.section_text h4{color:#6a6a6a;font-size:14px;line-height:140%;font-weight:bold}
+.section_text h3{color:#6a6a6a;font-size:13px;line-height:140%;font-weight:bold}
+.Reservation{width:980px; height:50px; padding-bottom:24px; background:url(../images/1_1_22.jpg) 0 top no-repeat; float:left;}
+.ReservationWrap{padding:15px 0 0 286px;}
+.ReservationWrap select{margin-left:10px;  float:left;}
+.ReservationWrap span{float:left; height:20px; line-height:24px; margin-left:3px;}
+.ReservationWrap1{padding:5px 0 0 95px;;}
+.ReservationBody{width:980px; padding-bottom:30px; float:left; padding-left:95px; }
+.ReservationHeadline {border-right:1px solid #c6c6c6;}
+.ReservationHeadline2 {border-left:1px solid #c6c6c6;}
+.Reservationline {border-bottom:1px solid #c6c6c6;border-right:1px solid #c6c6c6;}
+table.ReservationCalendar{ border-left:1px solid #c6c6c6; border-top:1px solid #c6c6c6; text-decoration:none; line-height:18px;}
+.ReservationCalendar_4{border-bottom:2px solid #cf0000; width:100%;}
+.res_btn_submit {padding: 3px 12px 3px 12px !important; border: 0; background: #cc0101 !important; font-size:12px !important; color: #fff !important; letter-spacing: -0.1em !important; cursor: pointer !important; height:30px;}
+.reslist_title {text-decoration:none; font-family: dotum, gulim; font-size:14px; color:#434343; line-height:20px;font-weight:bold; text-align:left }
+.list_menu{clear:both;}
+.tabs1{overflow:hidden;}
+.tabs1 li{float:left; padding-left:3px;}
+.reserBtn{width:69px; height:20px; float:left; cursor:pointer;display:block;background:url(../images/reserBtn.jpg) 0 0 no-repeat; text-indent:-9999px;}
+
+.tableStyle_4{border-top:2px solid #cf0000; width:100%;}
+.tableStyle_4 th{background:#e8e8e8; text-align:center; }
+.tableStyle_4 th{padding:8px 0; border-bottom:1px solid #c6c6c6; color:#6a6a6a; font-size:12px;}
+.tableStyle_4 td{padding:8px 0; border-bottom:1px solid #c6c6c6; color:#6a6a6a; font-size:12px; }
+.tableStyle_4 td{padding-left:5px;}
+.tableStyle_4 td textarea{width:95.29%; height:185px; resize:none; overflow-y:scroll;}
+.Solocheck{text-align:center; padding:25px 0 60px 0 ;}
+
+.pb_10 {padding-bottom: 10px;}
+.pt_10 {padding-top: 10px !important;}
+.red {color: #e83d45;}
+.btn_submit{padding: 5px 20px; border:0px solid #9c9c9c; background-color:#f25c27; height:27px; color:#fff;}
+.btn_cancel{padding: 5px 20px; margin-top:2px; border:0px solid #9c9c9c; background-color:#949494; height:29px; color:#fff !important;}
+
+/*패키지 더보기*/
+.expand-list {height: 70px; border-bottom: 1px solid #ddd; border-top: 1px solid #ddd; background: #f5f5f5; font-size: 15px; cursor: pointer; font-weight: 600;}
+.expand-list td {vertical-align: middle;}
+.expand-list .c-red {color: red;}
+.expand-list .arrow {
+    position: relative; font-weight: 400; margin-left: 5px; top: -2px;
+    -webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    -ms-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+.packlist_s {display:none;}

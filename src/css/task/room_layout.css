@@ -1,0 +1,43 @@
+@charset "utf-8";
+@import url(http://static.nurifunding.co.kr/css/reset.css);
+body {color: #333; font-family: "Noto Sans KR", "Nanum Gothic", "Malgun Gothic", sans-serif;}
+* {letter-spacing: -0.7px; box-sizing: border-box;}
+.cf:before, .cf:after {content: ""; display: table;}
+.cf:after {clear: both;}
+
+#room-layout-wrap {position: relative; width: 1124px; margin: 0 auto;}
+#room-layout-wrap > h1 {text-align: center; font-size: 44px; padding-top: 65px; margin-bottom: 65px; font-weight: 500;}
+
+.layout-info {position: absolute; right: 0; top: 20px;}
+.layout-info > div {position: relative; float: left; border-top: 1px solid #ddd;}
+.layout-info > div.right li {border-left: 0;}
+.layout-info .u1 {}
+.layout-info .u1 li {display: table-cell; font-size: 14px; line-height: 1.7em; border: 1px solid #ddd; /*height: 24px;*/ border-top: none;}
+.layout-info .u1 li:first-child {margin-top: 0;}
+.layout-info .u1 li.l-1 {width: 30px;}
+.layout-info .u1 li.l-2 {width: 135px; padding-left: 6px; border-left: 0;}
+.layout-info > div.right li.l-2 {width: 113px;}
+.layout-info .view-wrap {position: relative; text-align: right; margin-top: 2px;}
+.layout-info .view-wrap em {font-size: 14px; color: #696969; letter-spacing: 0;}
+.layout-info .n2 {margin-right: 15px;}
+.layout-info .n2-1 {margin-right: 3px;}
+
+.room-layout {width: 1020px; margin: 0 auto;}
+.rl-type {}
+.rl-type > li {float: left; font-size: 24px; height: 34px; border: 1px solid #333; text-align: center; line-height: 1.3em;}
+.rl-type .t-a {width: 298px;}
+.rl-type .t-b {width: 426px; margin-left: 20px;}
+.rl-type .t-c {width: 254px; margin-left: 20px;}
+div[class*="floor"] {position: relative; margin-top: 15px;}
+div[class*="floor"] > div {float: left;}
+div.floor-5 > div:first-child {margin-left: 43px;}
+div.floor-6 > div:first-child {margin-left: 86px;}
+div.floor-7 > div:first-child {margin-left: 129px;}
+div[class*="floor"] ul {position: relative;}
+div[class*="floor"] ul li {width: 40px; height: 40px; font-size: 14px; display: inline-block; padding-top: 11px; vertical-align: middle; line-height: 1.2em;  text-align: center; border: 1px solid #333;}
+div[class*="floor"] ul li:first-child {border-left: 1px solid #333;}
+div[class*="floor"] ul[class*="-2"] {margin-top: 5px;}
+div[class*="floor"] div.left {margin-right: 20px; text-align: right;}
+div[class*="floor"] div.right {margin-left: 20px; text-align: left;}
+div[class*="floor"] div.center li.center {width: 426px; text-align: center;}
+div[class*="floor"] ul li.col2 {width: 82px;}

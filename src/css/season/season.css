@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.season {padding:40px 0 200px; background:url('http://img.coresco.co.kr/bg_season.jpg') no-repeat 50% 0;}
+.season .season-area {width:1066px; margin:0 auto;}
+.season .season-area .top {padding:30px 30px 20px; background-color:#00aeef; color:#fff;}
+.season .season-area .top .title {display:block; margin-bottom:10px; font-weight:bold; font-size:36px;}
+.season .season-area .top .title span {padding:0 2px; background-color:#f5f5f5; color:#434343; font-weight:normal; font-size:18px;}
+.season .season-area .mid table {width:100%; table-layout:fixed;}
+.season .season-area .mid table tbody tr th {padding:15px 10px 15px 30px; background-color:#f5f5f5; color:#8c8c8c; font-weight:bold; font-size:22px; text-align:left; vertical-align:middle;}
+.season .season-area .mid table tbody tr th .mark {color:#00aeef;}
+.season .season-area .mid table tbody tr td {padding:15px 10px 15px 30px; background-color:#fff; vertical-align:middle;}
+.season .season-area .mid table tbody tr td input[type="text"] {height:50px; padding:5px; border:0; border-bottom:1px solid #f5f5f5; color:#505050; font-size:22px; box-sizing:border-box; -webkit-appearance:none; appearance:none;}
+.season .season-area .mid table tbody tr td input[type="text"].date {height:30px; border:1px solid #f5f5f5; color:#7e7d7c; font-size:12px; text-align:center;}
+input::-webkit-input-placeholder {color: #cecece;}
+.season .season-area .mid table tbody tr td .find {display:inline-block; width:118px; height:44px; border-radius:3px; background-color:#505050; color:#fff; font-size:17px; text-align:center; vertical-align:middle; line-height:44px;}
+.season .season-area .mid table tbody tr td input[type="radio"] {-webkit-appearance:none; appearance:none;}
+.season .season-area .mid table tbody tr td label {position:relative; color:#505050; font-size:19px; vertical-align:middle;}
+.season .season-area .mid table tbody tr td label:before {content:''; display:inline-block; position:relative; top:1px; width:18px; height:15px; background:url('http://img.coresco.co.kr/seson_rad_off.png') no-repeat 0 0;}
+.season .season-area .mid table tbody tr td label.on:before {background:url('http://img.coresco.co.kr/seson_rad_on.png') no-repeat 0 0;}
+.season .season-area .btm {padding:30px 0; background-color:#3b4254; color:#fff; text-align:center;}
+.season .season-area .btm a {display:inline-block; width:198px; height:56px; margin-bottom:10px; border-radius:3px; background-color:#398fe1; color:#fff; font-size:28px; line-height:56px;}

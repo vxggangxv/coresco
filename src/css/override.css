@@ -1,0 +1,31 @@
+/*--- bxSlider 재정의 ---*/
+.bx-wrapper {margin: 0 auto; width: 770px;}
+.bx-wrapper .bx-pager {display: none;}
+.bx-wrapper .bx-viewport {border: none; box-shadow: none; left: 0;}
+.bx-wrapper .bx-prev {
+  left: -30px;
+  background: url(http://img.coresco.co.kr/slide_btn.png) no-repeat 0;
+}
+
+.bx-wrapper .bx-next {
+  right: -30px;
+  background: url(http://img.coresco.co.kr/slide_btn.png) no-repeat -100px 0;
+}
+
+.bx-wrapper .bx-prev:hover {
+  background-position: 0 0;
+}
+
+.bx-wrapper .bx-next:hover {
+  background-position: -100px 0;
+}
+.bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: 50%;
+  margin-top: -32px;
+  outline: 0;
+  width: 60px;
+  height: 64px;
+  text-indent: -9999px;
+  z-index: 10;
+}

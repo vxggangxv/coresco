@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+.btn {display:inline-block; position:relative; color:#fff; text-align:center; vertical-align:middle;}
+.btn.btn_type01 {width:248px; height:62px; background-color:#505050; font-size:20px; line-height:62px;}
+.btn.btn_type01:before {content:''; display:block; position:absolute; right:20px; top:50%; width:7px; height:15px; margin-top:-8px; background:url('http://img.coresco.co.kr/btn_ico_arrow.png') no-repeat 0 0;}
+.btn.btn_type02 {width:248px; height:62px; background-color:#084a77; font-size:20px; line-height:62px;}
+.btn.btn_type02:before {content:''; display:block; position:absolute; right:20px; top:50%; width:7px; height:15px; margin-top:-8px; background:url('http://img.coresco.co.kr/btn_ico_arrow.png') no-repeat 0 0;}
+.btn.btn_type03 {width:200px; height:60px; background-color:#084a77; font-size:21px; line-height:60px;}
+.btn.btn_type04 {width:140px; height:34px; background-color:#505050; font-size:16px; line-height:34px;}
+span.mark {color:#ff4e00; font-size:18px;}
+span.etc {color:#ff1b1b; font-size:15px; vertical-align:middle;}
+.area {padding:60px 0 250px;}
+.area .tit {color:#2a2a2a; font-size:38px; text-align:center;}
+.area .s_tit {margin-top:15px; color:#676767; font-size:18px; text-align:center;}
+.area .admin .input_area .user {margin-top:20px; text-align:right;}
+.area .admin .input_area .id_area {overflow:hidden; margin-top:15px; padding:15px 0; border-top:1px solid #d4d4d4; border-bottom:1px solid #d4d4d4;}
+.area .admin .input_area .id_area ul {float:left; width:450px; font-size:0;}
+.area .admin .input_area .id_area ul li {margin-top:12px;}
+.area .admin .input_area .id_area ul li:first-child {margin-top:0;}
+.area .admin .input_area .id_area ul li > label, .area .admin .input_area .id_area ul li > span {display:inline-block; width:175px; height:52px; margin-right:6px; background-color:#e6e6e6; color:#464646; font-size:20px; line-height:52px; vertical-align:middle;}
+.area .admin .input_area.check .id_area ul li > div {display:inline-block; width:448px; font-size:20px; text-align:left; vertical-align:middle;}
+.area .input_area {margin-top:40px; padding:30px 64px 20px; border:1px solid #d4d4d4; background-color:#fff; text-align:center;}
+.area .input_area input[type="text"], .area .input_area input[type="password"]{height:52px; padding:10px; border:1px solid #c3c3c3; border-radius:0; background-color:#fff; font-size:16px; box-sizing:border-box; appearance:none; -webkit-appearance:none; -moz-appearance:none; -ms-appearance:none;}
+.area .admin .input_area .id_area .btn_login {float:right; width:180px; height:115px; background-color:#084a77; color:#fff; font-size:25px; line-height:115px;}
+.area .admin .input_area .btm_area {margin-top:15px; font-size:0;}
+.area .admin .input_area .btm_area .kor_logo {vertical-align:middle; margin-right:45px;}
+.area .admin .input_area .btm_area.ar {text-align:right;}
+
+/* 로그인 */
+
+.login {background-color:#f5f5f5;}
+.login .admin {width:780px; margin:0 auto;}
+
+/* 회원정보조회 */
+.check .top_img {text-align:left;}
+.area .admin .input_area.check .id_area ul {float:none; width:auto;}
+.area .admin .input_area.check .id_area ul li > label, .area .admin .input_area.check .id_area ul li > span  {width:196px;}
+
+/* 회원권 등록 조회 결과 */
+.area .fail {padding-top:150px; background:url('http://img.coresco.co.kr/bg_fail.gif') no-repeat 50% 40px #fff;}
+.fail .txt01 {color:#3e6083; font-size:25px;}
+.fail .txt02 {margin-top:15px; color:#505050; font-size:18px; line-height:1.4;}
+
+/* 회원정보 조회 결과 */
+.sec {padding-top:210px; background:url('http://img.coresco.co.kr/bg_member_visual.jpg') no-repeat 50% 0;}
+.sec .group {width:1000px; margin:0 auto; padding:75px 0 150px;}
+.group .tit {color:#2a2a2a; font-size:38px; text-align:center;}
+.group .b_tit {margin-top:10px; color:#2b2b2b; font-size:25px; text-align:center;}
+.group .s_tit {margin-top:10px; color:#676767; font-size:18px; text-align:center;}
+.group .guide {margin-top:40px; text-align:right;}
+.group .guide div {margin-bottom:5px; padding:35px 0; border:1px solid #e2e2e2; background-color:#f9f9f9; font-size:21px; text-align:center; line-height:1.8;}
+.group .guide div p span {color:#084a77;}
+.group .service {overflow:hidden; margin:60px 0 90px;}
+.group .service li {float:left; width:297px; margin-left:54px;}
+.group .service li:first-child {margin-left:0;}
+.group .service li a {display:block; width:100%; height:73px; background:url('http://img.coresco.co.kr/bg_btn.png') no-repeat 0 0; line-height:73px;}
+.group .notice {padding-top:40px; background:url('http://img.coresco.co.kr/bg_pattern.gif') repeat-x 0 0;}
+.group .notice > div {overflow:hidden; margin-top:40px;}
+.group .notice > div .l_txt {float:left; color:#2a2a2a; font-size:23px;}
+.group .notice > div .l_txt span {color:#084a77;}
+.group .notice > div .r_txt {float:right; color:#555454; padding-top:10px; font-size:15px;}
+.group .board {margin-top:10px;}
+.group .board table {width:100%; border-right:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5;}
+.group .board table tbody tr th {padding:15px 10px; border-top:1px solid #e5e5e5; border-left:1px solid #e5e5e5; background-color:#f6f6f6; color:#404040; text-align:left; vertical-align:middle;}
+.group .board table tbody tr td {padding:10px; border-top:1px solid #e5e5e5; border-left:1px solid #e5e5e5; vertical-align:middle;}
+.group .board table tbody tr td input[type="text"], .group .board table tbody tr td input[type="password"] {height:34px; padding:5px; background-color:#fff; border:1px solid #c3c3c3; border-radius:0; font-size:16px; box-sizing:border-box; appearance:none; -webkit-appearance:none; -moz-appearance:none; -ms-appearance:none;}
+.group .board table tbody tr th label {display:block;}
+.group .join_btn {margin-top:45px; text-align:center;}
+.group .clause_wrap {margin-top:50px;}
+.group .clause {}
+.group .clause > li {margin-top:5px;}
+.group .clause > li > p {position:relative; padding:10px 5px; background-color:#d6d6d6; cursor:pointer;}
+.group .clause > li > p:before {content:''; display:block; position:absolute; right:5px; top:50%; width:38px; height:14px; margin-top:-7px; background:url('http://img.coresco.co.kr/ico_arrow_down.gif') no-repeat 0 0;}
+.group .clause > li.on > p:before {content:''; display:block; position:absolute; right:5px; top:50%; width:38px; height:14px; margin-top:-7px; background:url('http://img.coresco.co.kr/ico_arrow_up.gif') no-repeat 0 0;}
+.group .clause > li .layer {display:none; margin-bottom:20px;}
+.group .clause > li.on .layer {display:block;}
+.group .clause > li .layer .txt {overflow:auto; height:150px; padding:10px; border:1px solid #e0e0e0; border-top:0; font-size:14px; line-height:1.3}
+.group .clause > li .layer .txt .title {display:block; margin-top:10px; font-weight:bold;}
+.group .clause > li .layer .txt .title:first-child {margin-top:0;}
+.group .clause > li .layer .txt p {margin-top:10px;}
+.group .clause > li .layer .txt ol {padding-left:15px;}
+.group .clause > li .layer .agree {margin-top:10px; text-align:right;}
+
+/* 회원권 등록 현황 */
+.group .status {margin-top:60px;}
+.group .status .st_txt {margin-bottom:30px; color:#2a2a2a; font-size:23px;}
+.group .status .st_txt span {color:#084a77;}
+.group .btm_txt {margin-top:10px; color:#4c4c4c; text-align:right;}
+.group .btm_txt span {color:#44668f;}

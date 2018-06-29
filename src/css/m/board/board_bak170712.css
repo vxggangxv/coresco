@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+.group {
+	padding:15px;
+	background-color:#f5f5f5;
+}
+	.group .board {
+		border-top:1px solid #dedede;
+		border-bottom:1px solid #dedede;
+		background-color:#fff;
+	}
+	.group .type01 {padding-bottom:15px;}
+
+.search {position:relative;}
+.search:after {content:''; display:block; clear:both;}
+	.search select {
+		float:left;
+		width:100px;
+	}
+	.search .search-bar {
+		position:absolute;
+		left:104px; right:60px;
+		top:0;
+	}
+	.search input[type="submit"] {
+		float:right;
+		width:56px;
+		height:26px;
+		border:0;
+		border-radius:3px;
+		background-color:#494949;
+		color:#fff;
+		-webkit-appearance:none;
+		appearance:none;
+	}
+
+/* list */
+.board-list {}
+	.board-list li {
+		position:relative;
+		border-top:1px solid #dedede;
+	}
+	.board-list li:first-child {border-top:0;}
+	.board-list li:before {
+		content:'';
+		display:block;
+		position:absolute;
+		right:12px; top:50%;
+		width:8px;
+		height:8px;
+		border:2px solid #cecece;
+		margin-top:-5px;
+		border-left:0;
+		border-top:0;
+		background-color:transparent;
+		-webkit-transform:rotate(-45deg);
+		transform:rotate(-45deg);
+	}
+		.board-list li a {
+			display:block;
+			padding:7px 10px;
+		}
+			.board-list li a .title {
+				display:block;
+				margin-bottom:5px;
+				font-size:13px;
+			}
+
+/* write */
+.board-write {}
+	.board-write tbody th {
+		padding:5px 0 5px 5px;
+		color:#403a3a;
+		font-weight:normal;
+		text-align:left;
+	}
+	.board-write tbody td {
+		padding:5px;
+		color:#403a3a;
+	}
+		.board-write tbody td textarea {
+			width:100%;
+			padding:5px;
+			border:1px solid #616161;
+			border-radius:0;
+			box-sizing:border-box;
+			resize:none;
+			-webkit-appearance:none;
+			appearance:none;
+
+		}
+		.board-write tbody td .filebox {
+			position:relative;
+			text-align:right;
+		}
+			.board-write tbody td .filebox input[type="file"] {
+				position:absolute;
+				width:1px;
+				height:1px;
+				padding:0;
+				margin:-1px;
+				overflow:hidden;
+				clip:rect(0,0,0,0);
+				border:0;
+			}
+
+			.board-write tbody td .filebox label {
+				position:absolute;
+				left:0; top:0;
+				width:50px;
+				height:23px;
+				border:1px solid #d2d2d2;
+				border-radius:3px;
+				background:#f4f4f5;
+				background:-webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+				background:linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%)
+				color:#403a3a;
+				text-align:center;
+				line-height:23px;
+			}
+
+			.board-write tbody td .filebox .upload-name {
+				display:inline-block;
+				overflow:hidden;
+				width:calc(100% - 57px);
+				height:24px;
+				background-color:transparent;
+				border:0;
+				border-bottom:1px solid #9f9f9f;
+				white-space:nowrap;
+				text-overflow:ellipsis;
+				-webkit-appearance:none;
+				appearance:none;
+			}
+
+/* view */
+.board-view {}
+	.board-view .view-tit {
+		padding:5px 10px;
+		background-color:#575757;
+		color:#fff;
+		font-weight:bold;
+		font-size:14px;
+	}
+		.board-view .view-tit span {
+			color:#fff;
+			font-weight:normal;
+			font-size:12px;
+		}
+	.board-view .board-detail {
+		padding:10px;
+		border-top:1px solid #e7e7e7;
+		border-bottom:1px solid #e7e7e7;
+	}
+		.board-view .board-detail p {
+			padding-bottom:40px;
+			border-bottom:1px solid #dedede;
+			color:#000;
+			font-size:14px;
+		}
+	.board-view .comment {margin-top:15px;}
+		.board-view .comment .login {overflow:hidden;}
+			.board-view .comment .login .column {
+				float:left;
+				width:50%;
+			}
+				.board-view .comment .login .column ul {
+					display:table;
+					width:100%;
+					table-layout:fixed;
+				}
+					.board-view .comment .login .column ul li {
+						display:table-cell;
+						vertical-align:middle;
+					}
+					.board-view .comment .login .column ul li:first-child {width:55px;}
+					.board-view .comment .login .column:last-child ul li:first-child {padding-left:5px;}
+		.board-view .comment .c-write {
+			display:table;
+			width:100%;
+			margin-top:10px;
+			font-size:0;
+			table-layout:fixed;
+		}
+			.board-view .comment .c-write div {
+				display:table-cell;
+				vertical-align:top;
+			}
+			.board-view .comment .c-write div:last-child {
+				width:55px;
+				text-align:right;
+			}
+				.board-view .comment .c-write div textarea {
+					width:100%;
+					height:60px;
+					padding:5px;
+					border:1px solid #9d9d9d;
+					border-radius:0;
+					box-sizing:border-box;
+					resize:none;
+					-webkit-appearance:none;
+					appearance:none;
+				}
+				.board-view .comment .c-write div input[type="submit"] {
+					width:50px;
+					height:60px;
+					border:0;
+					border-radius:0;
+					background-color:#56b7e4;
+					color:#fff;
+					text-align:center;
+					line-height:60px;
+					-webkit-appearance:none;
+					appearance:none;
+				}
+	.board-view .comment-list {padding:0 10px;}
+		.board-view .comment-list > li {
+			position:relative;
+			margin-top:7px;
+			padding-top:7px;
+			border-top:1px solid #dedede;
+		}
+			.board-view .comment-list li .user {margin-bottom:5px;}
+				.board-view .comment-list li .user * {vertical-align:text-bottom;}
+				.board-view .comment-list li .user strong {font-size:14px;}
+			.board-view .comment-list li .modify {
+				position:absolute;
+				right:0; top:7px;
+
+			}

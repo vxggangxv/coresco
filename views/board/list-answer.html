@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>코레스코</title>
+		<!--대표도메인설정-->
+		<link rel="canonical" href="http://www.coresco.co.kr" />
+
+		<link href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="http://static.coresco.co.kr/css/jquery.bxslider.css"/>
+		<link rel="stylesheet" href="http://static.coresco.co.kr/css/override.css">
+		<link rel="stylesheet" href="http://static.coresco.co.kr/css/common.css">
+		<!--<link rel="stylesheet" href="http://static.coresco.co.kr/css/board/board.css">-->
+
+		 <link rel="stylesheet" href="../../src/css/common.css">
+		<link rel="stylesheet" href="../../src/css/board/board.css">  
+
+		<script type="text/javascript" src="http://static.coresco.co.kr/js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="http://static.coresco.co.kr/js/jquery.bxslider.min.js"></script>
+		<script type="text/javascript" src="http://static.coresco.co.kr/js/jquery.easing.min.js"></script>
+		<!-- <script type="text/javascript" src="http://static.coresco.co.kr/js/board/board.js"></script> -->
+		<script type="text/javascript" src="../../src/js/board/board.js"></script>
+
+		<!--[if lt IE 9]>
+<link rel="stylesheet" href="http://static.coresco.co.kr/css/ie9_lt.css">
+
+<script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+	</head>
+		<style>
+			.answer-td {}
+		</style>
+
+	<body>
+		<h1 class="skip">코레스코</h1>
+		<div id="wrap">
+			<header class="header">
+				<div class="gnb-wrap">
+					<div class="gnb-menu">
+						<a href="http://www.koresco.kr">홈</a>
+						&nbsp;
+						|
+						&nbsp;
+						<a href="http://www.koresco.kr/member/?dd=RBstQTtUAUAoFQ==">회원정보조회</a>
+						&nbsp;
+						|
+						&nbsp;
+						<a href="http://www.koresco.kr/member/?dd=RREnSjA=">로그인</a>
+					</div>
+				</div>
+				<div class="header-box clearfix">
+					<h2><a href="http://www.koresco.kr" class="navbar-brand"><img src="http://img.koresco.kr/coresco_logo.png?ver=20170712094800" alt="코레스코로고"></a></h2>
+					<ul class="main-nav">
+						<li><a href="http://www.koresco.kr/?anc=intro">코레스코소개</a></li>
+						<li><a href="http://www.koresco.kr/?anc=branch-intro">지점소개</a></li>
+						<li><a href="http://www.koresco.kr/?anc=branch-sampo">삼포지점</a></li>
+						<li><a href="http://www.koresco.kr/?anc=branch-chiak">치악지점</a></li>
+						<li><a href="http://www.koresco.kr/?anc=branch-seorak">설악지점</a></li>
+						<li><a href="http://www.koresco.kr/?anc=way-to-come">오시는길</a></li>
+						<li><a href="http://www.koresco.kr/board/?dd=RRczVw==&amp;brd=Rxw1Wg==">사고팔고</a></li>
+
+					</ul>
+				</div>
+			</header>
+			<div class="header affix" id="header-affix" style="display: none;">
+				<div class="gnb-wrap">
+					<div class="gnb-menu">
+						<a href="http://www.koresco.kr">홈</a>
+						&nbsp;
+						|
+						&nbsp;
+						<a href="http://www.koresco.kr/member/?dd=RBstQTtUAUAoFQ==">회원정보조회</a>
+						&nbsp;
+						|
+						&nbsp;
+						<a href="http://www.koresco.kr/member/?dd=RREnSjA=">로그인</a>
+					</div>
+				</div>
+				<div class="header-box clearfix">
+					<h2><a href="http://www.koresco.kr" class="navbar-brand"><img src="http://img.koresco.kr/coresco_logo.png?ver=20170712094800" alt="코레스코로고"></a></h2>
+					<ul class="main-nav">
+						<li><a href="http://www.koresco.kr/?anc=intro">코레스코소개</a></li>
+						<li><a href="http://www.koresco.kr/?anc=branch-intro">지점소개</a></li>
+						<li><a href="http://www.koresco.kr/?anc=branch-sampo">삼포지점</a></li>
+						<li><a href="http://www.koresco.kr/?anc=branch-chiak">치악지점</a></li>
+						<li><a href="http://www.koresco.kr/?anc=branch-seorak">설악지점</a></li>
+						<li><a href="http://www.koresco.kr/?anc=way-to-come">오시는길</a></li>
+						<li><a href="http://www.koresco.kr/board/?dd=RRczVw==&amp;brd=Rxw1Wg==">사고팔고</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- 00.게시판이름 -->
+			<h2 class="com-ft">입장권 거래 게시판</h2>
+
+			<!-- 01.게시판 리스트 -->
+			<section class="faq-list com-pd">
+				<div class="container">
+
+					<div class="com-box fl-wrap br4">
+						<ul class="faq-th-box clearfix">
+							<li class="faq-th nth-1" style="width:5%">번호</li>
+							<li class="faq-th nth-2" style="width:15%">분류</li>
+							<li class="faq-th nth-3" style="width:50%">제목</li>
+							<li class="faq-th nth-4" style="width:15%">작성자</li>
+							<li class="faq-th nth-5" style="width:15%">작성일</li>
+						</ul>
+						<a href="http://www.koresco.kr/board/?dd=WxshRw==&amp;brd=Rxw1Wg==&amp;num=G0w=&amp;page=1&amp;field=전체&amp;word=" title="공지사항">
+							<ul class="faq-td-box clearfix" style="background:#cedae5">
+								<li class="faq-th nth-3" style="width:70%;text-align:align;">#&nbsp; 공지사항 안내</li>
+								<!--변경내용_170712_로고변경-->
+								<li class="faq-th nth-4" style="width:15%"><img class="logo" src="http://img.koresco.kr/coresco_logo.png"></li>
+								<li class="faq-th nth-5" style="width:15%">2017-04-17</li>
+							</ul>
+						</a>
+						<!--변경내용170712_코레스코 게시글 답변-->
+						<div class="post-box">
+							<a href="http://www.koresco.kr/board/?dd=WxshRw==&amp;brd=Rxw1Wg==&amp;num=Gk8=&amp;page=1&amp;field=전체&amp;word=" title="보증금 반환금 문의">
+								<ul class="faq-td-box clearfix">
+									<li class="faq-th nth-1" style="width:5%;color:#398fe1">5</li>
+									<li class="faq-th nth-2" style="width:15%">팝니다</li>
+									<li class="faq-th nth-3" style="width:50%;text-align:left">보증금 반환금 문의</li>
+									<li class="faq-th nth-4" style="width:15%">5615</li>
+									<li class="faq-th nth-5" style="width:15%">2017-07-05</li>
+								</ul>
+							</a>
+							<a href="">
+								<ul class="answer-td clearfix">
+									<li class="faq-th nth-2" style="width:70%;">┖ &nbsp;코레스코에서 답변드립니다.</li>
+									<li class="faq-th nth-4" style="width:15%"><img class="logo" src="http://img.koresco.kr/coresco_logo.png"></li>
+									<li class="faq-th nth-5" style="width:15%">2017-07-05</li>
+								</ul>
+							</a>
+						</div>
+						<!--변경내용170712 끝-->
+						<div class="post-box">
+							<a href="http://www.koresco.kr/board/?dd=WxshRw==&amp;brd=Rxw1Wg==&amp;num=Gk4=&amp;page=1&amp;field=전체&amp;word=" title="회원권팝니다">
+								<ul class="faq-td-box clearfix">
+									<li class="faq-th nth-1" style="width:5%;color:#398fe1">4</li>
+									<li class="faq-th nth-2" style="width:15%">팝니다</li>
+									<li class="faq-th nth-3" style="width:50%;text-align:left">회원권팝니다</li>
+									<li class="faq-th nth-4" style="width:15%">정영훈</li>
+									<li class="faq-th nth-5" style="width:15%">2017-07-03</li>
+								</ul>
+							</a>
+							<a href="">
+								<ul class="answer-td clearfix">
+									<li class="faq-th nth-2" style="width:70%;">┖ &nbsp;코레스코에서 답변드립니다.</li>
+									<li class="faq-th nth-4" style="width:15%"><img class="logo" src="http://img.koresco.kr/coresco_logo.png"></li>
+									<li class="faq-th nth-5" style="width:15%">2017-07-05</li>
+								</ul>
+							</a>
+						</div>
+						<a href="http://www.koresco.kr/board/?dd=WxshRw==&amp;brd=Rxw1Wg==&amp;num=G0c=&amp;page=1&amp;field=전체&amp;word=" title="치악코레스코 콘도 소유권(등기권리증 있는) 팝니다.(1호실전체)">
+							<ul class="faq-td-box clearfix">
+								<li class="faq-th nth-1" style="width:5%;color:#398fe1">3</li>
+								<li class="faq-th nth-2" style="width:15%">팝니다</li>
+								<li class="faq-th nth-3" style="width:50%;text-align:left">치악코레스코 콘도 소유권(등기권리증 있는) 팝니다.(1호실전체)</li>
+								<li class="faq-th nth-4" style="width:15%">조덕호</li>
+								<li class="faq-th nth-5" style="width:15%">2017-06-27</li>
+							</ul>
+						</a>
+						<a href="http://www.koresco.kr/board/?dd=WxshRw==&amp;brd=Rxw1Wg==&amp;num=G0Y=&amp;page=1&amp;field=전체&amp;word=" title="코레스코 회원권 팝니다.">
+							<ul class="faq-td-box clearfix">
+								<li class="faq-th nth-1" style="width:5%;color:#398fe1">2</li>
+								<li class="faq-th nth-2" style="width:15%">팝니다</li>
+								<li class="faq-th nth-3" style="width:50%;text-align:left">코레스코 회원권 팝니다.</li>
+								<li class="faq-th nth-4" style="width:15%">박인국</li>
+								<li class="faq-th nth-5" style="width:15%">2017-06-21</li>
+							</ul>
+						</a>
+						<a href="http://www.koresco.kr/board/?dd=WxshRw==&amp;brd=Rxw1Wg==&amp;num=Gk8=&amp;page=1&amp;field=전체&amp;word=" title="보증금 반환금 문의">
+							<ul class="faq-td-box clearfix">
+								<li class="faq-th nth-1" style="width:5%;color:#398fe1">5</li>
+								<li class="faq-th nth-2" style="width:15%">팝니다</li>
+								<li class="faq-th nth-3" style="width:50%;text-align:left">보증금 반환금 문의</li>
+								<li class="faq-th nth-4" style="width:15%">5615</li>
+								<li class="faq-th nth-5" style="width:15%">2017-07-05</li>
+							</ul>
+						</a>
+					</div>
+					<div class="page-wrap">
+						<form name="search" id="search" method="GET" action="">
+							<div class="wbtn-wrap">
+								<div class="dropdown wbtn">
+									<button type="button" class="btn">전체<span class="pull-right">▼</span></button>
+									<ul class="dropdown-menu">
+										<li><a href="">전체</a></li>
+										<li><a href="">삽니다</a></li>
+										<li><a href="">팝니다</a></li>
+									</ul>
+								</div>
+								<input type="hidden" name="dd" value="RRczVw==">
+								<input type="hidden" name="brd" value="Rxw1Wg==">
+								<input type="hidden" name="field" value="전체">
+								<input type="text" id="word" name="word" class="nr-text br4" placeholder="검색어" value="">
+								<input class="search-btn br4 fc-white" style="cursor:pointer;" type="button" id="checkselect" value="검색">
+								<a class="write-btn br4 bg-blue fc-white" href="http://www.koresco.kr/board/?dd=XA4kQipD&amp;brd=Rxw1Wg==">글쓰기</a>
+							</div>
+						</form>
+						<ul class="pagenation br4 clearfix" id="pagenation">
+							<li class="first"><a href="#" onclick="javascript:location.href='#'">&lt;&lt;</a></li><li class="first"><a href="#" onclick="javascript:location.href='#'">&lt;</a></li>		  <li class="on"><a href="#" onclick="javascript:location.href='http://www.koresco.kr/board/?dd=RRczVw==&amp;brd=Rxw1Wg==&amp;page=1&amp;field=전체&amp;word='">1</a></li>
+
+
+
+
+
+							<li class="last"><a href="#" onclick="javascript:location.href='#'">&gt;</a></li><li class="last"><a href="#" onclick="javascript:location.href='#'">&gt;&gt;</a></li>
+
+						</ul>
+					</div>
+				</div>
+			</section>
+
+		</div>
+
+
+		<footer class="footer">
+			<div class="f-outer clearfix">
+				<div class="f-logo-box"><img src="http://img.coresco.co.kr/coresco_footer_brand.png" alt="코레스코로고"></div>
+				<div class="f-txt-box">
+					<address>(주)코레스코 ㅣ 사업자등록번호 220-81-09638 ㅣ 강원도 횡성군 우천면 전재로 254</address>
+					<small>COPYRIGHT <span>koresco</span> CO..LTD ALL RIGHTS RESERVED.</small>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+
+</html>

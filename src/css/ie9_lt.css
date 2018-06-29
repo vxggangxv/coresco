@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* 메인 네비게이션 */
+/* .main-nav {margin-left: 112px;} */
+
+/* 메뉴 */
+.main-nav li {margin-left:18px;}
+
+/*지점 소개*/
+.branch-intro {position:relative; /* height: 722px; */ padding:70px 0; background:#01a5e4;}
+
+/* 팝업 */
+.disabled {background:#ebebeb;}
+.sel-com {background:#fff;}
+.popup-com .sel-area .sel-txt {z-index:1; display:block; position:absolute; box-sizing:border-box; top:2px; left:1px; width:74px; height:48px; padding:14px 9px; font-size:18px; vertical-align:middle; color:#3e3e3e; background:#fff;}
+.popup-com .sel-box .sel-area .sel-txt {width:298px}
+.popup-summer .form-box.type-1 .sel-area .sel-txt {width:96px;}

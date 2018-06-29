@@ -1,0 +1,94 @@
+.branch-wrap/*글자 색상*/
+.fc-blue {color: #00ADEF;}
+.fc-white {color: #fff;}
+.fc-black {color: #222;}
+/*전체 섹션*/
+.intro, .branch-intro, .branch-wrap, .way-to-come {min-width: 1000px; position: relative; margin: 0;}
+
+/*인사의 말씀 영역*/
+.intro {height: 641px; background: url(http://img.coresco.co.kr/main_bg.jpg) no-repeat center 0;}
+.intro > h2 {position: absolute; top: 50%; margin-top: -301px;  left: 50%; margin-left: -484.5px;}
+
+/*지점 소개*/
+.branch-intro {position:relative; /* height: 722px; */ padding:70px 0; background: url(http://img.coresco.co.kr/branch_bg.jpg) no-repeat center 0; background-size:cover; /*-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img.coresco.co.kr/branch_bg.jpg',sizingMethod='scale'); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img.coresco.co.kr/branch_bg.jpg',sizingMethod='scale');*/}
+.branch-intro > h2 {font-size: 38px; text-align: center; color: #fff;}
+.bi-outer {position:relative; width: 969px; margin:0 auto; margin-top: 40px;}
+.bi-box {position:relative; width:100%; /* height: 428px; */}
+.bi-inner {position:relative; float:left; width:230px; height:394px; /* width:312px; height: 428px; */ background: #fff;}
+.bi-inner {margin-left:16px; margin-bottom:16px;}
+.bi-inner.ml-0 {clear:both; margin-left: 0px;} /* li1, 5, 8 ... 반복*/
+.bi-inner > h3 {text-align: center; font-size: 21px; padding: 24px 0;}
+.bi-inner > p {padding: 0 16px; font-size: 15px; line-height: 1.3em; word-break:keep-all; color: #484848;}
+.bi-inner > p.mt {margin-top: 16px;}
+/*.bi-inner > p.mt + p {font-size: 15px; line-height: 1.5em;}*/
+.bi-inner > p.mt + p.ls {position: relative; top: 2px; font-size: 15px;  letter-spacing: -2px;}
+.bi-inner > p.mt + p {min-height:40px;}
+.bi-t-box {position: relative;}
+.bi-t-ing {position: absolute; right: 10px; top: 10px; display: block; width: 46px; height: 46px; text-align: center; font-size: 13px; background: url(http://img.coresco.co.kr/ing-bg.png) repeat; line-height: 3.6em;}
+.bi-t-ing.not {background: url(http://img.coresco.co.kr/ing-not-bg.png) repeat;}
+.bi-link {display: block; width:198px; height:58px; margin: 0 auto; margin-top: 16px; color: #fff; font-size: 18px; background: #70BE1C; border-bottom: 5px solid #437D05;
+line-height:52px; text-align: center;}
+.bi-link.not {height: 58px; background: #ADADAD; border-bottom: none;}
+.bi-link > img {margin-left: 10px;}
+.bi-fc.mt {margin-top: 16px;}
+.bi-fc {line-height: 1.5em}
+
+/*지점컨테이너*/
+.branch-wrap {}
+.branch-wrap > section[class^=branch-] {padding: 80px 0; border-top: 1px solid #d4d4d4; width: 770px; margin: 0 auto;}
+.branch-wrap > section[class^=branch-]:first-child {border-top: none;}
+/*삼포지점*/
+.branch-sampo {background: #fff;}
+.bs-wrap {position: relative;}
+.bs-wrap h2 {font-size: 38px; text-align: center; margin-bottom: 50px;}
+/*.bs-box {margin-top: 50px;}*/
+.detail-info {position: relative;}
+.di-li {margin-top: 20px;}
+.di-tit, .di-txt {float: left; line-height: 1.5em;}
+.di-tit {width: 110px; font-size: 20px;}
+.di-txt {position: relative; top: 3px; color: #484848; letter-spacing: 0; width: 660px; word-break: keep-all;}
+
+/*요금 테이블*/
+.pt-tit {font-size: 20px; margin-top: 25px;}
+.price-table {position: relative; border-top: 2px solid #858585; margin-top: 10px; width: 100%; border-left: 1px solid #d4d4d4;border-right: 1px solid #d4d4d4; font-family: "NanumGothic",sans-serif;}
+.pt-row {width: 100%; border-bottom: 1px solid #d4d4d4;}
+.pt-cell {display: table-cell; text-align: center; vertical-align: middle; text-align: center; font-size: 12px; border-left: 1px solid #d4d4d4;  height: 26px; letter-spacing: 0;}
+.pt-cell:first-child {border-left: none;}
+.pt-cell.nth-1 {width: 110px;}
+.pt-cell.nth-2 {width: 110px;}
+.pt-cell.nth-3 {width: 109px;}
+.pt-cell.nth-4 {width: 109px;}
+.pt-cell.nth-5 {width: 110px;}
+.pt-cell.nth-6 {width: 110px;}
+.pt-cell.nth-7 {width: 110px;}
+
+.pt-th {background: #eaeaea; font-weight: 600;}
+.pt-c-txt {height: 24px; line-height: 1.8em; border-top: 1px solid #d4d4d4; font-size: 13px;}
+.pt-c-txt:first-child {border-top: none;}
+.pt-ps {color: #545454; margin-top: 8px; font-weight: 300;}
+
+/*치악 요금 테이블*/
+.branch-chiak .pt-cell, .branch-seorak .pt-cell {width: 192.5px;}
+.branch-chiak .pt-cell.p-c-3 {width: 577.5px;}
+
+/*오시는길*/
+.way-to-come {background: #D1DBE4; padding: 80px 0;}
+.way-to-come > h2 {font-size: 38px; text-align: center;}
+.way-box {position: relative; width: 1000px; margin: 0 auto; margin-top: 50px;}
+.w-t-inner2 {}
+/*변경 전*/
+/*.way-tit {float: left; width: 33.3%; height: 60px; text-align: center; font-size: 24px; font-weight: 300; line-height: 2.5em; background: #fff; border-left: 1px solid #ccc; cursor: pointer;}
+.w-t-inner2 > li {float: left; width: 25%; height: 60px; text-align: center; font-size: 24px; font-weight: 300; line-height: 2.5em; background: #fff; border-left: 1px solid #ccc; cursor: pointer;}
+.way-tit:first-child {border-left: none;}
+.way-tit.on {background: #00AEEF; color: #fff; font-weight: 400;}
+.way-tit.on + li {border-color: #fff;}
+.w-m-inner {position: relative; width: 1000px; height: 420px;}
+.way-map {position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
+.way-map > iframe {width: 1000px; height: 420px; border: none;}
+.w-a-inner {position: relative; width: 1000px; height: 70px; background: #fff;}
+.way-adr {position: absolute; top: 0; left: 0; font-size: 18px; font-weight: 300; letter-spacing: 0; width: 100%; height: 100%; text-align: center; line-height: 3.9em;}
+.adr-icon {display: inline-block; width: 50px; font-size: 16px; height: 22px; line-height: 1.3em; border: 1px solid #00adef; margin-right: 10px;}*/
+/*jquery on기능*/
+.way-map, .way-adr {display: none;}
+.way-map.on, .way-adr.on {display: block;}
+

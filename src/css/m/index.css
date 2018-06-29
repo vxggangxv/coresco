@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+/* 인사말 */
+.intro {
+	padding:15px;
+	background:url('http://img.coresco.co.kr/m/intro_bg.jpg') no-repeat 0 0;
+	background-size:100% 100%;
+}
+.intro .note {
+	padding:10px;
+	border:1px solid #e5e5e5;
+	background-color:#fff;
+	font-size:14px;
+	box-shadow:1px 1px 1px rgba(213,213,213,.75);
+}
+.intro .note  strong {
+	display:block;
+	padding-bottom:5px;
+	border-bottom:1px solid #c7c7c7;
+	color:#515151;
+	text-align:center;
+}
+.intro .note  div {padding:5px;}
+
+/* 지점소개 */
+.store {
+	padding:15px;
+	background-color:#56b7e4;
+}
+.store .tit {color:#fff;}
+.store .info {position:relative;}
+.store .info li {
+	clear:both;
+	display:table;
+	/*display:table;*/
+	position:relative;
+	width:100%;
+	margin-bottom:6px;
+	padding:6px 10px 6px 6px;
+	background-color:#fff;
+	box-sizing:border-box;
+}
+.store .info li:after {content:''; display:block; clear:both}
+.store .info li > div {display:table-cell; vertical-align:top;}
+.store .info li .info-img {
+	position:relative;
+	overflow:hidden;
+	box-sizing:border-box;
+	width:154px;
+	height:100%;
+}
+.store .info li .info-img img {/*position:relative;*/ width:100%;}
+.store .info li .info-img:before {
+	display:block;
+	position:absolute;
+	right:5px; top:3px;
+	width:40px;
+	height:40px;
+	border-radius:100%;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	line-height:40px;
+}
+.store .info li .info-img.on:before {
+	content:'운영중';
+	background-color:#0f6ff1;
+}
+.store .info li .info-img.off:before {
+	content:'미운영';
+	background-color:#a3a3a3;
+}
+.store .info li .info-txt {
+	position:relative;
+	min-height:98px;
+	padding-left:10px;
+}
+.store .info li .info-txt .name {font-size:13px;}
+.store .info li .info-txt p {margin-top:5px; word-break:keep-all}
+.store .info li .info-txt .q-btn {
+	display:block;
+	position:static; 
+	/*position:absolute; 
+	right:0;
+	bottom:0;*/
+	margin-top:8px; 
+	height:28px;
+	background-color:#b0b0b0;
+	border-radius:4px;
+	text-align:center;
+	line-height:28px;
+}
+.store .info li .info-txt .go-link {background-color:#286cc8;}
+.store .info li .info-txt .q-btn span {
+	color:#fff;
+	font-weight:bold;
+}
+.store .info li .info-txt .go-link span {
+	position:relative;
+	padding-right:10px;
+}
+.store .info li .info-txt .go-link span:before {
+	content:'';
+	display:block;
+	position:absolute;
+	right:0; top:50%;
+	width:5px;
+	height:5px;
+	margin-top:-3px;
+	border:2px solid #fff;
+	border-left:0;
+	border-top:0;
+	background-color:transparent;
+	transform:rotate(-45deg);
+}
+
+/* 지점별 내용 */
+.sampo, .seorak {background-color:#fff;}
+.bs, .chiak {background-color:#efefef;}
+.contact {background-color:#d1dbe4;}
+
+.store-area {padding:15px;}
+.store-area .store-info {margin-top:5px;}
+.store-area .store-info > li {border-top:1px solid #dbdbdb;}
+.store-area .store-info > li:first-child {border-top:0;}
+.store-area .store-info > li dl {
+	display:table;
+	width:100%;
+	padding:5px 0;
+	table-layout:fixed;
+}
+.store-area .store-info > li dl dt,
+.store-area .store-info > li dl dd {
+	display:table-cell;
+	vertical-align:top;
+}
+.store-area .store-info > li dl dt {
+	position:relative;
+	width:57px;
+	padding-left:6px;
+	color:#3b99f1;
+}
+.store-area .store-info > li dl dt:before {
+	content:'';
+	display:block;
+	position:absolute;
+	left:0; top:6px;
+	width:2px;
+	height:2px;
+	background-color:#3b99f1;
+	border-radius:100%;
+}
+.store-area .store-info > li dl dd {word-break: keep-all;}
+.store-area .slide-store > a {
+	display:block;
+	position:absolute;
+	top:50%;
+	z-index:100;
+	width:17px;
+	height:27px;
+	margin-top:-12px;
+	text-indent:-9999px;
+}
+.store-area .slide-store {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	overflow: hidden;
+	/* Fix of Webkit flickering */
+	z-index: 1;
+}
+.store-area .slide-store .swiper-wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	-ms-transition-property: -ms-transform;
+	transition-property: transform;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.store-area .slide-store .swiper-wrapper .swiper-slide {
+	-webkit-flex-shrink: 0;
+	-ms-flex: 0 0 auto;
+	flex-shrink: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.store-area .slide-store > a.btn-prev {
+	left:0;
+	background:url('http://img.coresco.co.kr/m/slide_btn_prev.png') no-repeat 0 0;
+	background-size:100% 100%;
+}
+.store-area .slide-store > a.btn-next {
+	right:0;
+	background:url('http://img.coresco.co.kr/m/slide_btn_next.png') no-repeat 0 0;
+	background-size:100% 100%;
+}
+
+/* 오시는길 */
+.map {
+	position:relative;
+	padding-top:25px;
+	border:1px solid #c8c8c8;
+}	
+/*삭제예정*/
+.map h4 {
+	position:absolute;
+	top:0;
+	width:33%;
+	height:25px;
+	border-left:1px solid #c8c8c8;
+	background-color:#fff;
+	color:#4c4c4c;
+	text-align:center;
+	line-height:25px;
+box-sizing:border-box;
+}
+.map h4:first-of-type {border-left:0;}
+.map h4:nth-of-type(2) {
+	left:33%;
+	width:34%;
+}
+.map h4:nth-last-child(2) {
+	right:0;
+	width:33%;
+}
+/*end*/
+.map.map-2 h4 {
+	position:absolute;
+	top:0;
+	width:25%;
+	height:25px;
+	border-left:1px solid #c8c8c8;
+	background-color:#fff;
+	color:#4c4c4c;
+	text-align:center;
+	line-height:25px;
+box-sizing:border-box;
+}
+.map-2 h4:first-of-type {border-left:0;}
+.map-2 h4:nth-of-type(2) {
+	left:25%;
+}
+.map-2 h4:nth-of-type(3) {
+	left: 50%;
+}
+.map-2 h4:nth-of-type(4) {
+	left: 75%;
+}
+
+.map h4.on {
+	border-left:0;
+	background-color:#56b7e4;
+	color:#fff;
+}
+.map .view {
+	display:none;
+	border-top:1px solid #c8c8c8;
+}
+.map .view div {height:159px;}
+.map .view p {
+	padding:6px 10px;
+	border-top:1px solid #e3e3e3;
+	background-color:#fff;
+	text-align:center;
+}
+.map .view p em {
+	display:inline-block;
+	padding:2px 5px;
+	border:1px solid #00aeef;
+	color:#00aeef;
+	font-style:normal;
+	vertical-align:middle;
+}
+.map .view p span {
+	margin-left:2px;
+	vertical-align:middle;
+}
